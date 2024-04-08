@@ -1,5 +1,23 @@
 # NHL_Analysis
 
+## Table of Contents
+- Project Overview
+  - Background
+  - Questions We Hope to Answer with Data
+  - Approach
+- Data Exploration
+  - Data Retrieval
+  - Database Design
+  - Preprocessing of Data
+- Analysis
+- Machine Learning
+  - Models Used for Prediction
+- Visualization
+- Communication
+- Technologies
+- Resources
+
+    
 ## Project Overview
 
 We were interested in visualizing NHL data to document the league's progression over the last 100 years.
