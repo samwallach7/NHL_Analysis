@@ -30,8 +30,8 @@ In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, a
  
 ### Questions We Hope to Answer with Data
 
-On a per game basis, did noticeable shifts occur over time in relation to team performance? How can these fluctuations be explained when considering the evolution of offensive and defensive philosophies?
-Most professional sports leagues have developed a goal of achieving a competitive balance (evidenced by the introduction of salary caps, player drafts, among others…). This in theory improves the product league-wide and gives teams a better chance to win any given game. Is this competitive balance exhibited when assessing a team’s point output in a given season?
+- On a per game basis, did noticeable shifts occur over time in relation to team performance? How can these fluctuations be explained when considering the evolution of offensive and defensive philosophies?
+- Most professional sports leagues have developed a goal of achieving a competitive balance (evidenced by the introduction of salary caps, player drafts, among others…). This in theory improves the product league-wide and gives teams a better chance to win any given game. Is this competitive balance exhibited when assessing a team’s point output in a given season?
 
 
 ### Approach:
