@@ -1,6 +1,6 @@
 # NHL_Analysis
 
--  Project Overview
+** Project Overview
 
 We were interested in visualizing NHL data to document the league's progression over the last 100 years.
 
