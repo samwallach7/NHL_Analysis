@@ -28,24 +28,25 @@ Professional sports leagues experience significant growth and transformation ove
  Hockey is one of the most popular sports in North America. The National Hockey League (NHL) was founded in 1917 and has experienced significant growth and transformation over the years. As a professional league develops, teams improve every facet of their organizations, from arenas and fan engagement to coaching, player acquisition and development. There is also an improvement over time in the players themselves. Professional athletes in general have become bigger, faster, stronger and more specialized as compared to their predecessors.
 
  
-  -  Questions We Hope to Answer with Data
-  -  Approach
+### Questions We Hope to Answer with Data
 
--  Data Exploration phase
-  -  Data Retrieval
-  -  Database Design
-  -  Preprocessing of Data
+### Approach:
 
--  Analysis Phase
+## Data Exploration
 
--  Machine Learning
-  -  Models used for Stock Prdiction
-  -  Models used for Stock Prdiction with Sentiment Score
+### Data Retrieval
+### Database Design
+### Preprocessing of Data
 
--  Visualization
+## Analysis Phase
 
--  Communication Protocols
+## Machine Learning
+### Models used for Prdiction
 
--  Technologies
+## Visualization
 
--  Resources
+## Communication Protocols
+
+## Technologies
+
+## Resources
