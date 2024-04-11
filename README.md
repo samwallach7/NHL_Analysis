@@ -1,23 +1,22 @@
 # NHL_Analysis
 
 ## Table of Contents
-- Project Overview
-  - Background
-  - Questions We Hope to Answer with Data
-  - Approach
-- Data Exploration
-  - Data Retrieval
-  - Database Design
-  - Preprocessing of Data
-- Analysis
-- Machine Learning
-  - Models Used for Prediction
-- Visualization
-- Communication
-- Technologies
-- Resources
+- [Project Overview](#project-overview)
+  - [Background](#background)
+  - [Questions We Hope to Answer with Data](#questions-we-hope-to-answer-with-data)
+  - [Approach](#approach)
+- [Data Exploration](#data-exploration)
+  - [Data Retrieval](#data-retrieval)
+  - [Database Design](#database-design)
+  - [Preprocessing of Data](#preprocessing-of-data)
+- [Analysis](#analysis)
+- [Machine Learning](#machine-learning)
+  - [Models Used for Prediction](#models-used-for-prediction)
+- [Visualization](#visualization)
+- [Communication](#communication)
+- [Technologies](#technologies)
+- [Resources](#resources)
 
-    
 ## Project Overview
 
 Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through performance and fan engagement data. This project will predict each season’s playoff participants and show the impact that team stats such as goals scored per game, penalty minutes incurred, etc. have on a team’s playoff chances.
@@ -54,3 +53,4 @@ In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, a
 ## Technologies
 
 ## Resources
+https://www.kaggle.com/datasets/open-source-sports/professional-hockey-database?resource=download
