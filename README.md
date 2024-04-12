@@ -107,3 +107,6 @@ Here's a list of technologies used in the project:
 
 ## Resources
 https://www.kaggle.com/datasets/open-source-sports/professional-hockey-database?resource=download
+https://www.kaggle.com/datasets/mattop/nhl-draft-hockey-player-data-1963-2022?select=nhldraft.csv
+https://sportsdata.io/developers/api-documentation/nhl
+
