@@ -49,6 +49,11 @@ We began this project by examining the overarching evolution of the NHL league o
 ### Models used for Prdiction
 
 ## Visualization
+### Team Performance
+### Player Statictics
+### Player Measurables
+### NHL Attendance
+### NHL Draft
 
 ## Communication Protocols
 
