@@ -35,6 +35,8 @@ In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, a
 
 ### Approach:
 
+We began this project by examining the overarching evolution of the NHL league over time across various areas, including but not limited to team and player performance, accomplishments and awards, NHL drafts, and playoff chances. Eventually, we opted to develop a machine learning model capable of predicting the playoff chances of each NHL team. For this purpose, we utilized data spanning the 1979-2011 NHL seasons as the basis for our predictions.
+
 ## Data Exploration
 
 ### Data Retrieval
@@ -47,10 +49,93 @@ In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, a
 ### Models used for Prdiction
 
 ## Visualization
+### Team Performance
+#### Has team performance changed over time?
+The distribution of team results tightens between the 1970’s to 2011, which we believe shows that the league’s competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary cap restrictions, draft structure and an increase in player quality and development helped to achieve these results. In general, a more balanced league provides greater entertainment value, as more teams have realistic chances of qualifying for the playoffs.
+
+This is also evident when looking at the results by variance, median and quartile.
+
+#### Has goal scoring evolved over time?
+A steady increase in goals scored per game was observed from the 1950’s to the 1980’s. Subsequently, a decrease in goals per game is observed over the following 15 years (1980’s to 2000). 
+
+We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
+
+### Player Statictics
+#### How have individual player statistics evolved over time?
+The average goals scored (by player) and the average goals allowed (by goalie) decreased between the 1980’s to 2011. This matches up with the team-specific data above, where there was a noted decrease in goal scoring. Meanwhile, the average shots allowed increased and the average shots on goal fluctuated but remained about the same from the 1980’s to 2011. With more total shots but the same amount of shots on goal, that is a clear sign in defensive improvement of teams limiting the “quality” of shots that opponents take.
+
+### Player Measurables
+#### How have player measurables evolved over time?
+There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
+
+### NHL Attendance
+#### How has NHL fan attendance evolved over time?
+Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled. While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend.
+
+The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
+
+### NHL Draft
+#### How has the search for professional talent evolved over the years?
+In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
 
 ## Communication Protocols
+We communicated and devloped our project over virtual meetings through Zoom and Google Meet, chat through Slack, and repository branch commits through GitHub.
 
 ## Technologies
 
+Here's a list of technologies used in the project:
+
+1. Python libraries:
+   - Matplotlib
+   - Pandas
+   - Numpy
+   - Scipy
+   - HvPlots
+
+2.Data manipulation:
+  - JSON files
+  - CSV files
+  - GeoJSON files
+
+3. API integration:
+   - API key management
+   - Requests library
+
+4. Web development:
+   - Dash 
+   - JupyterDash
+   - Plotly Express
+   - Dash Leaflet
+
+5. Database interaction:
+   - SQLAlchemy
+   - PostgreSQL
+   - psycopg
+   - SQL connection
+
+6. Frontend technologies:
+   - HTML
+   - Anime.js
+   - D3.js
+
+7. Miscellaneous:
+   - Time module
+   - OS module
+   - Pathlib
+   - Random module
+
+## Members
+
+- [<img src="https://github.com/samwallach7.png" width="50" height="50"> Sam Wallach](https://github.com/samwallach7)
+- [<img src="https://github.com/Lena-Hill.png" width="50" height="50"> Lena Hill](https://github.com/Lena-Hill)
+- [<img src="https://github.com/derekjohnson7.png" width="50" height="50"> Dereck Johnson](https://github.com/derekjohnson7)
+- [<img src="https://github.com/Elodie0712.png" width="50" height="50"> Elodie Mwamba](https://github.com/Elodie0712)
+
+
+
+
 ## Resources
 https://www.kaggle.com/datasets/open-source-sports/professional-hockey-database?resource=download
+https://www.kaggle.com/datasets/mattop/nhl-draft-hockey-player-data-1963-2022?select=nhldraft.csv
+https://sportsdata.io/developers/api-documentation/nhl
+
