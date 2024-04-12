@@ -35,6 +35,8 @@ In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, a
 
 ### Approach:
 
+We began this project by examining the overarching evolution of the NHL league over time across various areas, including but not limited to team and player performance, accomplishments and awards, NHL drafts, and playoff chances. Eventually, we opted to develop a machine learning model capable of predicting the playoff chances of each NHL team. For this purpose, we utilized data spanning the 1979-2011 NHL seasons as the basis for our predictions.
+
 ## Data Exploration
 
 ### Data Retrieval
@@ -52,5 +54,44 @@ In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, a
 
 ## Technologies
 
+Here's a list of technologies used in the project:
+
+1. Python libraries:
+   - matplotlib
+   - pandas
+   - numpy
+   - scipy
+
+2.Data manipulation:
+  - JSON files
+  - CSV files
+  - GeoJSON files
+
+3. API integration:
+   - API key management
+   - Requests library
+
+4. Web development:
+   - Dash 
+   - JupyterDash
+   - Plotly Express
+   - Dash Leaflet
+
+5. Database interaction:
+   - SQLAlchemy
+   - PostgreSQL
+   - psycopg
+   - SQL connection
+
+6. Frontend technologies:
+   - HTML
+   - Anime.js
+   - D3.js
+
+7. Miscellaneous:
+   - Time module
+   - OS module
+   - Pathlib
+   - Random module
 ## Resources
 https://www.kaggle.com/datasets/open-source-sports/professional-hockey-database?resource=download
