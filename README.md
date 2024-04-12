@@ -1,7 +1,7 @@
 # NHL_Analysis
 
 ## Table of Contents
-    - [Project Overview](#project-overview)
+- [Project Overview](#project-overview)
   - [Background](#background)
   - [Questions We Hope to Answer with Data](#questions-we-hope-to-answer-with-data)
   - [Approach](#approach)
