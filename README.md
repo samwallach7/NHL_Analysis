@@ -96,10 +96,11 @@ Here's a list of technologies used in the project:
 
 ## Members
 ## Members
-  - [![Sam Wallach](https://github.com/samwallach7.png)](https://github.com/samwallach7)
-  - [![Lena Hill](https://github.com/Lena-Hill.png)](https://github.com/Lena-Hill)
-  - [![Dereck Johnson](https://github.com/derekjohnson7.png)](https://github.com/derekjohnson7)
-  - [![Elodie Mwamba](https://github.com/Elodie0712.png)](https://github.com/Elodie0712)
+  - [<img src="https://github.com/samwallach7.png" width="50" height="50"> Sam Wallach](https://github.com/samwallach7)
+- [<img src="https://github.com/Lena-Hill.png" width="50" height="50"> Lena Hill](https://github.com/Lena-Hill)
+- [<img src="https://github.com/derekjohnson7.png" width="50" height="50"> Dereck Johnson](https://github.com/derekjohnson7)
+- [<img src="https://github.com/Elodie0712.png" width="50" height="50"> Elodie Mwamba](https://github.com/Elodie0712)
+
 
 
 
