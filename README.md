@@ -57,10 +57,11 @@ We began this project by examining the overarching evolution of the NHL league o
 Here's a list of technologies used in the project:
 
 1. Python libraries:
-   - matplotlib
-   - pandas
-   - numpy
-   - scipy
+   - Matplotlib
+   - Pandas
+   - Numpy
+   - Scipy
+   - HvPlots
 
 2.Data manipulation:
   - JSON files
@@ -95,8 +96,8 @@ Here's a list of technologies used in the project:
    - Random module
 
 ## Members
-## Members
-  - [<img src="https://github.com/samwallach7.png" width="50" height="50"> Sam Wallach](https://github.com/samwallach7)
+
+- [<img src="https://github.com/samwallach7.png" width="50" height="50"> Sam Wallach](https://github.com/samwallach7)
 - [<img src="https://github.com/Lena-Hill.png" width="50" height="50"> Lena Hill](https://github.com/Lena-Hill)
 - [<img src="https://github.com/derekjohnson7.png" width="50" height="50"> Dereck Johnson](https://github.com/derekjohnson7)
 - [<img src="https://github.com/Elodie0712.png" width="50" height="50"> Elodie Mwamba](https://github.com/Elodie0712)
