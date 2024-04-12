@@ -93,5 +93,15 @@ Here's a list of technologies used in the project:
    - OS module
    - Pathlib
    - Random module
+
+## Members
+## Members
+  - [![Sam Wallach](https://github.com/samwallach7.png)](https://github.com/samwallach7)
+  - [![Lena Hill](https://github.com/Lena-Hill.png)](https://github.com/Lena-Hill)
+  - [![Dereck Johnson](https://github.com/derekjohnson7.png)](https://github.com/derekjohnson7)
+  - [![Elodie Mwamba](https://github.com/Elodie0712.png)](https://github.com/Elodie0712)
+
+
+
 ## Resources
 https://www.kaggle.com/datasets/open-source-sports/professional-hockey-database?resource=download
