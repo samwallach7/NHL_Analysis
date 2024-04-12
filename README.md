@@ -50,6 +50,14 @@ We began this project by examining the overarching evolution of the NHL league o
 #### KMeans Clustering
 The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created, first using the Points earned per game and the Goals For and second using the Points earned per game and the Goals Against. The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal characteristics.
 
+Using Goals For:
+<img width="702" alt="Screenshot 2024-04-11 at 9 34 38 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/0b9791b5-a4d7-4d3e-8b38-973b16bf862e">
+
+Using Goals Against:
+<img width="699" alt="Screenshot 2024-04-11 at 9 35 50 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/184d49de-9acb-453f-af46-a32361a881c3">
+
+
+
 #### Logistic Regression
 The team performance dataset was also utilized to construct a logistic regression to predict playoff qualification. After testing different combinations of data, the model we chose to utilize had a target value of “made_playoff” (a Bernoulli value of whether the team made the playoffs or not) and features values of goals for per game, goals allowed per game, power play goal efficiency (percent of the time a team scored when on a power play) and penalty kill efficiency (percent of the time a team did not allow a goal when short-handed).
 
