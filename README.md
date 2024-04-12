@@ -51,9 +51,15 @@ We began this project by examining the overarching evolution of the NHL league o
 The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created, first using the Points earned per game and the Goals For and second using the Points earned per game and the Goals Against. The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal characteristics.
 
 Using Goals For:
+
+Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
+
 <img width="702" alt="Screenshot 2024-04-11 at 9 34 38 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/0b9791b5-a4d7-4d3e-8b38-973b16bf862e">
 
 Using Goals Against:
+
+Clusters 0 and 3 made the playoffs while clusters 1 and 2 did not.
+
 <img width="699" alt="Screenshot 2024-04-11 at 9 35 50 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/184d49de-9acb-453f-af46-a32361a881c3">
 
 
