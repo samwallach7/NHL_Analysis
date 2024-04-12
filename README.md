@@ -19,7 +19,7 @@
 
 ## Project Overview
 
-Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through performance and fan engagement data. This project will predict each season’s playoff participants and show the impact that team stats such as goals scored per game, penalty minutes incurred, etc. have on a team’s playoff chances.
+Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. This project will predict each season’s playoff participants and show the impact that team stats such as goals scored per game, penalty minutes incurred, etc. have on a team’s playoff chances.
 
 
 ### Background
