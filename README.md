@@ -78,7 +78,7 @@ The Classification Report for the model:
 
 
 ## Visualization
-https://github.com/samwallach7/NHL_Analysis/blob/main/image_files/webpage_preview.gif
+<img src="image_files/webpage_preview.gif" width=100% height=300px>
 
 
 ### Team Performance
