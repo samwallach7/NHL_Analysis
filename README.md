@@ -78,6 +78,9 @@ The Classification Report for the model:
 
 
 ## Visualization
+
+<img scr="image_files/webpage_preview.gif" width=100% height=400px>
+
 ### Team Performance
 #### Has team performance changed over time?
 The distribution of team results tightens between the 1970’s to 2011, which we believe shows that the league’s competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary cap restrictions, draft structure and an increase in player quality and development helped to achieve these results. In general, a more balanced league provides greater entertainment value, as more teams have realistic chances of qualifying for the playoffs.
