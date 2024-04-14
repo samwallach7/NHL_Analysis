@@ -78,7 +78,7 @@ The Classification Report for the model:
 
 
 ## Visualization
-<img src="image_files/webpage_preview.gif" width=80% height=200px>
+<img src="image_files/webpage_preview.gif" width=80% height=200px margin="auto">
 
 
 ### Team Performance
