@@ -120,9 +120,10 @@ This is also evident when looking at the results by variance, median and quartil
 
 ![Fig3](https://github.com/samwallach7/NHL_Analysis/assets/148116220/13429a30-25ad-468c-b641-906d72b5410e)
 
-
 #### Has goal scoring evolved over time?
 A steady increase in goals scored per game was observed from the 1950’s to the 1980’s. Subsequently, a decrease in goals per game is observed over the following 15 years (1980’s to 2000). 
+
+![Fig6](https://github.com/samwallach7/NHL_Analysis/assets/148116220/dec6e119-d192-4ccf-a1aa-7158217ac5f7)
 
 We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
 
@@ -130,13 +131,19 @@ We believe this can be attributed to a variety of factors, including a renewed d
 #### How have individual player statistics evolved over time?
 The average goals scored (by player) and the average goals allowed (by goalie) decreased between the 1980’s to 2011. This matches up with the team-specific data above, where there was a noted decrease in goal scoring. Meanwhile, the average shots allowed increased and the average shots on goal fluctuated but remained about the same from the 1980’s to 2011. With more total shots but the same amount of shots on goal, that is a clear sign in defensive improvement of teams limiting the “quality” of shots that opponents take.
 
+ ![image](https://github.com/samwallach7/NHL_Analysis/assets/148116220/215690a9-28c3-40ec-9ea2-c4c6b445278e)
+
 ### Player Measurables:
 #### How have player measurables evolved over time?
 There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
 
+ ![image](https://github.com/samwallach7/NHL_Analysis/assets/148116220/df5e88dd-61ec-493f-9a1e-f067881a75de)
+
 ### NHL Attendance:
 #### How has NHL fan attendance evolved over time?
 Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled. While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend.
+
+ ![image](https://github.com/samwallach7/NHL_Analysis/assets/148116220/509cf0d7-ddf8-4b73-b69b-929c3eaef332)
 
 The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
 
@@ -144,8 +151,10 @@ The three sharp spikes in the attendance data can be attributed to certain exter
 #### How has the search for professional talent evolved over the years?
 In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
 
+ ![image](https://github.com/samwallach7/NHL_Analysis/assets/148116220/d3b8f88c-0355-45f1-b170-55987bd54d2e)
+
 ## Communication Protocols
-We communicated and devloped our project over virtual meetings through Zoom and Google Meet, chat through Slack, and repository branch commits through GitHub.
+We communicated and developed our project over virtual meetings through Zoom and Google Meet, chat through Slack, and repository branch commits through GitHub.
 
 ## Technologies
 
