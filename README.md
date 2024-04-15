@@ -40,6 +40,15 @@ We began this project by examining the overarching evolution of the NHL league o
 ## Data Exploration
 
 ### Data Retrieval
+Our ETL (Extract, Transform, Load) workflow was designed to consolidate diverse data sources into a unified format. This process is crucial for ensuring data consistency and reliability. Let's walk through each phase:
+#### Extract Phase
+In the extract phase, we focused on retrieving data from the sportsIO API database. We developed Python scripts to handle API requests, manage rate limits, and ensure data consistency. This phase laid the foundation for our data integration process.
+#### Transform Phase
+The transform phase involved cleaning and standardizing the extracted data. For the players dataset, this meant addressing missing values and normalizing player statistics. We extensively used Pandas for data manipulation, reshaping the data to fit our analytical needs. We encapsulated this transformation process in a function, making it scalable and customizable.
+
+For the teams dataset, transformation involved aggregating team-level data, standardizing team names, and ensuring uniformity across different datasets. This step was crucial for aligning team data with the rest of our integrated data.
+
+
 ### Database Design
 ### Preprocessing of Data
 
