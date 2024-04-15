@@ -151,7 +151,7 @@ The three sharp spikes in the attendance data can be attributed to certain exter
 #### How has the search for professional talent evolved over the years?
 In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
 
- ![image](https://github.com/samwallach7/NHL_Analysis/assets/148116220/d3b8f88c-0355-45f1-b170-55987bd54d2e)
+![NHLDRAFTCOUNT](https://github.com/samwallach7/NHL_Analysis/assets/148116220/f2ecae95-4b1f-4d7c-b25a-3d37e80e4142)
 
 ## Communication Protocols
 We communicated and developed our project over virtual meetings through Zoom and Google Meet, chat through Slack, and repository branch commits through GitHub.
