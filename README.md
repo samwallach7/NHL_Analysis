@@ -116,6 +116,11 @@ The distribution of team results tightens between the 1970’s to 2011, which we
 
 This is also evident when looking at the results by variance, median and quartile.
 
+![Fig14](https://github.com/samwallach7/NHL_Analysis/assets/148116220/e42e15fd-e8c5-4e73-b698-f3e730c7ef24)![Fig13](https://github.com/samwallach7/NHL_Analysis/assets/148116220/1cf290e0-aadf-4737-a034-e269b1eef4be)
+
+![Fig3](https://github.com/samwallach7/NHL_Analysis/assets/148116220/13429a30-25ad-468c-b641-906d72b5410e)
+
+
 #### Has goal scoring evolved over time?
 A steady increase in goals scored per game was observed from the 1950’s to the 1980’s. Subsequently, a decrease in goals per game is observed over the following 15 years (1980’s to 2000). 
 
