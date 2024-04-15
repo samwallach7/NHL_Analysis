@@ -47,7 +47,8 @@ In the extract phase, we focused on retrieving data from the sportsIO API databa
 The transform phase involved cleaning and standardizing the extracted data. For the players dataset, this meant addressing missing values and normalizing player statistics. We extensively used Pandas for data manipulation, reshaping the data to fit our analytical needs. We encapsulated this transformation process in a function, making it scalable and customizable.
 
 For the teams dataset, transformation involved aggregating team-level data, standardizing team names, and ensuring uniformity across different datasets. This step was crucial for aligning team data with the rest of our integrated data.
-
+#### Load Phase
+In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to load the transformed data into a SQL database. Psycopg2 provided a robust and efficient way to establish a connection to the database and execute SQL queries. We created tables in the database to store the player and team data, ensuring that the schema matched the format of the transformed data. Using psycopg2's functionality, we inserted the data into the respective tables, completing the ETL process and making the integrated data available for analysis and reporting.
 
 ### Database Design
 ### Preprocessing of Data
