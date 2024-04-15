@@ -97,7 +97,12 @@ The Classification Report for the model:
   - R-squared (R²): 0.956
   - For goals prediction, the model also demonstrates strong performance, with an R² value of 0.956. This indicates that 95.6% of the variance in goals can be explained by the model. The MSE for goals is relatively low, indicating accurate predictions.
 
+- Assists Prediction:
+  - Mean Squared Error (MSE): 643.97
+  - R-squared (R²): 0.967
+  - Similarly, the model performs well in predicting assists, with an R² value of 0.967, indicating that 96.7% of the variance in assists is explained by the model. The MSE for assists is also relatively low, suggesting accurate predictions.
 
+- Overall, the model demonstrates strong predictive capabilities for player performance metrics, but further validation and consideration of recent trends and factors are advised when using the model for predictions in the present day.
 
 ## Visualization
 <img src="image_files/webpage_preview.gif" width=100% height=300px margin="auto" >
