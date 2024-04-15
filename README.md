@@ -17,17 +17,17 @@
 - [Technologies](#technologies)
 - [Resources](#resources)
 
-## Project Overview
+## Project Overview:
 
 Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. This project will predict each season’s playoff participants and show the impact that team stats such as goals scored per game, penalty minutes incurred, etc. have on a team’s playoff chances.
 
 
-### Background
+### Background:
 
 Hockey is one of the most popular sports in North America. The National Hockey League (NHL) was founded in 1917 and has experienced significant growth and transformation over the years. As a professional league develops, teams improve every facet of their organizations, from arenas and fan engagement to coaching, player acquisition and development. There is also an improvement over time in the players themselves. Professional athletes in general have become bigger, faster, stronger and more specialized as compared to their predecessors.
 In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, and 0 points for a regulation loss. These points are kept over the course of a season and used for the league standings and to determine the playoff teams and seeds at the end of the season.
  
-### Questions We Hope to Answer with Data
+### Questions We Hope to Answer with Data:
 
 - On a per game basis, did noticeable shifts occur over time in relation to team performance? How can these fluctuations be explained when considering the evolution of offensive and defensive philosophies?
 - Most professional sports leagues have developed a goal of achieving a competitive balance (evidenced by the introduction of salary caps, player drafts, among others…). This in theory improves the product league-wide and gives teams a better chance to win any given game. Is this competitive balance exhibited when assessing a team’s point output in a given season?
@@ -37,7 +37,7 @@ In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, a
 
 We began this project by examining the overarching evolution of the NHL league over time across various areas, including but not limited to team and player performance, accomplishments and awards, NHL drafts, and playoff chances. Eventually, we opted to develop a machine learning model capable of predicting the playoff chances of each NHL team. For this purpose, we utilized data spanning the 1979-2011 NHL seasons as the basis for our predictions.
 
-## Data Exploration
+## Data Exploration:
 
 ### Data Retrieval
 Our ETL (Extract, Transform, Load) workflow was designed to consolidate diverse data sources into a unified format. This process is crucial for ensuring data consistency and reliability. Let's walk through each phase:
@@ -50,13 +50,13 @@ For the teams dataset, transformation involved aggregating team-level data, stan
 #### Load Phase
 In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to load the transformed data into a SQL database. Psycopg2 provided a robust and efficient way to establish a connection to the database and execute SQL queries. We created tables in the database to store the player and team data, ensuring that the schema matched the format of the transformed data. Using psycopg2's functionality, we inserted the data into the respective tables, completing the ETL process and making the integrated data available for analysis and reporting.
 
-### Database Design
-### Preprocessing of Data
+### Database Design:
+### Preprocessing of Data:
 
 ## Analysis Phase
 
 ## Machine Learning
-### Models used for Prediction
+### Models used for Prediction:
 #### KMeans Clustering
 The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created, first using the Points earned per game and the Goals For and second using the Points earned per game and the Goals Against. The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal characteristics.
 
@@ -86,12 +86,24 @@ The Classification Report for the model:
 <img width="500" alt="Screenshot 2024-04-11 at 9 39 15 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/a0e85bdb-257e-41cb-85f8-85c87bac9256">
 
 
+#### Linear Regression
+- Points Prediction:
+-- Mean Squared Error (MSE): 1404.51
+-- R-squared (R²): 0.972
+-- The model performs exceptionally well in predicting points, with a high R² value indicating that it explains 97.2% of the variance in points based on the features in the dataset. The relatively low MSE suggests that the model's predictions are close to the actual points scored by players.
+
+- Goals Prediction:
+-- Mean Squared Error (MSE): 359.67
+-- R-squared (R²): 0.956
+-- For goals prediction, the model also demonstrates strong performance, with an R² value of 0.956. This indicates that 95.6% of the variance in goals can be explained by the model. The MSE for goals is relatively low, indicating accurate predictions.
+
+
 
 ## Visualization
 <img src="image_files/webpage_preview.gif" width=100% height=300px margin="auto" >
 
 
-### Team Performance
+### Team Performance:
 #### Has team performance changed over time?
 The distribution of team results tightens between the 1970’s to 2011, which we believe shows that the league’s competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary cap restrictions, draft structure and an increase in player quality and development helped to achieve these results. In general, a more balanced league provides greater entertainment value, as more teams have realistic chances of qualifying for the playoffs.
 
@@ -102,21 +114,21 @@ A steady increase in goals scored per game was observed from the 1950’s to the
 
 We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
 
-### Player Statictics
+### Player Statictics:
 #### How have individual player statistics evolved over time?
 The average goals scored (by player) and the average goals allowed (by goalie) decreased between the 1980’s to 2011. This matches up with the team-specific data above, where there was a noted decrease in goal scoring. Meanwhile, the average shots allowed increased and the average shots on goal fluctuated but remained about the same from the 1980’s to 2011. With more total shots but the same amount of shots on goal, that is a clear sign in defensive improvement of teams limiting the “quality” of shots that opponents take.
 
-### Player Measurables
+### Player Measurables:
 #### How have player measurables evolved over time?
 There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
 
-### NHL Attendance
+### NHL Attendance:
 #### How has NHL fan attendance evolved over time?
 Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled. While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend.
 
 The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
 
-### NHL Draft
+### NHL Draft:
 #### How has the search for professional talent evolved over the years?
 In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
 
@@ -148,6 +160,7 @@ Here's a list of technologies used in the project:
    - JupyterDash
    - Plotly Express
    - Dash Leaflet
+   - Flask
 
 5. Database interaction:
    - SQLAlchemy
