@@ -78,7 +78,7 @@ Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
 
 <img width="699" alt="Screenshot 2024-04-15 at 8 51 48 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/1679ced6-8ea7-401e-a1da-4dfa914f29b4">
 
-On the Goal Spread plot, note that there are teams with a negative goal spread that made the playoffs (yellow) and conversely teams with a positive goal spread that did not make the playoffs (red). Of these cases, there seem to be more instances of the former than the latter.
+On the Goal Spread plot, note that there are some teams with a negative goal spread that made the playoffs and conversely teams with a positive goal spread that did not make the playoffs. Of these cases, there seem to be more instances of the former than the latter.
 
 This data also shows that a statistical threshold for guaranteeing qualification for the playoffs is a Goal Spread value of at least 0.3.
 
