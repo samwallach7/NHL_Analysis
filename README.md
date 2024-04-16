@@ -64,13 +64,13 @@ Using Goals For:
 
 Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
 
-<img width="702" alt="Screenshot 2024-04-11 at 9 34 38 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/0b9791b5-a4d7-4d3e-8b38-973b16bf862e">
+<img width="698" alt="Screenshot 2024-04-15 at 8 54 02 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/5c765727-1b57-4183-aa07-e6d7a1a1b8b3">
 
 Using Goals Against:
 
 Clusters 0 and 3 made the playoffs while clusters 1 and 2 did not.
 
-<img width="699" alt="Screenshot 2024-04-11 at 9 35 50 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/184d49de-9acb-453f-af46-a32361a881c3">
+<img width="699" alt="Screenshot 2024-04-15 at 8 55 02 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/b6df39bc-9381-42c6-9ee6-37dd0dffd95d">
 
 Using the spread between goals for and goals against:
 
