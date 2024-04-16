@@ -72,6 +72,13 @@ Clusters 0 and 3 made the playoffs while clusters 1 and 2 did not.
 
 <img width="699" alt="Screenshot 2024-04-11 at 9 35 50 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/184d49de-9acb-453f-af46-a32361a881c3">
 
+Using the spread between goals for and goals against:
+
+Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
+
+<img width="699" alt="Screenshot 2024-04-15 at 8 51 48 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/1679ced6-8ea7-401e-a1da-4dfa914f29b4">
+
+
 #### Logistic Regression
 The team performance dataset was also utilized to construct a logistic regression to predict playoff qualification. After testing different combinations of data, the model we chose to utilize had a target value of “made_playoff” (a Bernoulli value of whether the team made the playoffs or not) and features values of goals for per game, goals allowed per game, power play goal efficiency (percent of the time a team scored when on a power play) and penalty kill efficiency (percent of the time a team did not allow a goal when short-handed).
 
