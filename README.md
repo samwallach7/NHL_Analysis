@@ -58,19 +58,29 @@ In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to loa
 ## Machine Learning
 ### Models used for Prediction:
 #### KMeans Clustering
-The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created, first using the Points earned per game and the Goals For and second using the Points earned per game and the Goals Against. The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal characteristics.
+The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created with the Points earned per game as the y value in the plot, (1) using the Goals For per game, (2) using the Goals Against per game and (3) using the Goal Spread (Goals For per game - Goals Against per game). The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal output characteristics.
 
 Using Goals For:
 
 Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
 
-<img width="702" alt="Screenshot 2024-04-11 at 9 34 38 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/0b9791b5-a4d7-4d3e-8b38-973b16bf862e">
+<img width="698" alt="Screenshot 2024-04-15 at 8 54 02 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/5c765727-1b57-4183-aa07-e6d7a1a1b8b3">
 
 Using Goals Against:
 
 Clusters 0 and 3 made the playoffs while clusters 1 and 2 did not.
 
-<img width="699" alt="Screenshot 2024-04-11 at 9 35 50 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/184d49de-9acb-453f-af46-a32361a881c3">
+<img width="699" alt="Screenshot 2024-04-15 at 8 55 02 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/b6df39bc-9381-42c6-9ee6-37dd0dffd95d">
+
+Using the spread between goals for and goals against:
+
+Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
+
+<img width="699" alt="Screenshot 2024-04-15 at 8 51 48 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/1679ced6-8ea7-401e-a1da-4dfa914f29b4">
+
+On the Goal Spread plot, note that there are some teams with a negative goal spread that made the playoffs and conversely teams with a positive goal spread that did not make the playoffs. Of these cases, there seem to be more instances of the former than the latter.
+
+This data also shows that a statistical threshold for guaranteeing qualification for the playoffs is a Goal Spread value of at least 0.3.
 
 #### Logistic Regression
 The team performance dataset was also utilized to construct a logistic regression to predict playoff qualification. After testing different combinations of data, the model we chose to utilize had a target value of “made_playoff” (a Bernoulli value of whether the team made the playoffs or not) and features values of goals for per game, goals allowed per game, power play goal efficiency (percent of the time a team scored when on a power play) and penalty kill efficiency (percent of the time a team did not allow a goal when short-handed).
