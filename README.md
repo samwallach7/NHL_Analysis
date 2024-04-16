@@ -58,7 +58,7 @@ In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to loa
 ## Machine Learning
 ### Models used for Prediction:
 #### KMeans Clustering
-The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created, first using the Points earned per game and the Goals For and second using the Points earned per game and the Goals Against. The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal characteristics.
+The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created with the Points earned per game as the y value in the plot, (1) using the Goals For per game, (2) using the Goals Against per game and (3) using the Goal Spread (Goals For per game - Goals Against per game). The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal output characteristics.
 
 Using Goals For:
 
