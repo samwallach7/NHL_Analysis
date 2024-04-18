@@ -198,7 +198,7 @@ Here's a list of technologies used in the project:
    - Dash 
    - JupyterDash
    - Plotly Express
-   - Dash Leaflet
+   - Leaflet
    - Flask
 
 ### Database interaction
