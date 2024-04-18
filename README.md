@@ -183,14 +183,14 @@ Here's a list of technologies used in the project:
    - Pandas
    - Numpy
    - Scipy
-   - HvPlots
+   - HvPlot
 
 ### Data manipulation
   - JSON files
   - CSV files
   - GeoJSON files
 
-### API integration:
+### API integration
    - API key management
    - Requests library
 
