@@ -80,7 +80,7 @@ Clusters 0 and 3 made the playoffs while clusters 1 and 2 did not.
 
 <img width="699" alt="Screenshot 2024-04-15 at 8 55 02 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/b6df39bc-9381-42c6-9ee6-37dd0dffd95d">
 
-Using the spread between goals for and goals against:
+Using the spread between goals for and goals against (per game):
 
 Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
 
