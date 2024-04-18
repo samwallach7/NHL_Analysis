@@ -19,12 +19,17 @@
 
 ## Project Overview:
 
-Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. The project was broken up into three distinct sections throughout the Data Analysis & Visualization program, with each utilizing the different skills that we acquired during the corhort. 
+Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. The project was broken up into three distinct sections throughout the Data Analysis & Visualization program, with each utilizing the different skills that we acquired during the cohort. 
 
 ### NHL Project Sections
-#### Section I: 
-The machine learning element of this project will predict each season’s playoff participants and show the impact that team stats such as goals scored per game, penalty minutes incurred, etc. have on a team’s playoff chances.
+#### Section I (Python)
+We started with determining a topic for the project and finding relevant datasets to utilize. We found a folder of hockey-related data on Kaggle that featured files on team performance, player performance, coaches, awards and more. We utilized Python to clean, manipulate and visualize the data and then develop conclusions based on these inital findings.
 
+#### Section II (JavaScript, HTML, Leaflet)
+We developed a page with multiple tabs that utilized JavaScript, HTML and CSS formatting. The first page featured a player selector tool that allows a user to choose a player from a list and see their stats for the most recent season. The second page featured a Leaflet map of each NHL team and their minor league affiliates (locations were marked on the map with their team logos), and map layers to sort out certain performance metrics (playoff percentage, Stanley Cup titles, etc.). The final page featured a selector tool realted to the NHL draft where the user can select a year from the list and see the nationality breakdown from that draft.
+
+#### Section III (Machine Learning)
+We developed mutiple machine learning models based on the NHL data. The first item was a KMeans model that would build clusters based on team metrics and predict playoff participation. We built plots to highlight Goals For vs. Points, Goals Against vs. Points, and Goal Spread vs. Points. The second item was a Logistic Regression for playoff participation that we tried to optimize the accuracy on by utilizing team goal, penalty and efficiency metrics. Finally, we built a Linear Regression to predict player perfomance for an upcoming season based on historical data.
 
 ### Background:
 
