@@ -19,7 +19,11 @@
 
 ## Project Overview:
 
-Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. This project will predict each season’s playoff participants and show the impact that team stats such as goals scored per game, penalty minutes incurred, etc. have on a team’s playoff chances.
+Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. The project was broken up into three distinct sections throughout the Data Analysis & Visualization program, with each utilizing the different skills that we acquired during the corhort. 
+
+### NHL Project Sections
+#### Section I: 
+The machine learning element of this project will predict each season’s playoff participants and show the impact that team stats such as goals scored per game, penalty minutes incurred, etc. have on a team’s playoff chances.
 
 
 ### Background:
