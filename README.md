@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+  - [Sections](#sections)
   - [Background](#background)
   - [Questions We Hope to Answer with Data](#questions-we-hope-to-answer-with-data)
   - [Approach](#approach)
@@ -21,7 +22,7 @@
 
 Professional sports leagues experience significant growth and transformation over their years of existence. We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. The project was broken up into three distinct sections throughout the Data Analysis & Visualization program, with each utilizing the different skills that we acquired during the cohort. 
 
-### NHL Project Sections
+### Sections
 #### Section I (Python)
 We started with determining a topic for the project and finding relevant datasets to utilize. We found a folder of hockey-related data on Kaggle that featured files on team performance, player performance, coaches, awards and more. We utilized Python to clean, manipulate and visualize the data and then develop conclusions based on these inital findings.
 
