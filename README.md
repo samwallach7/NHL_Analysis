@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Background](#background)
-- [Project Overview] (#project-overview)
+- [Project Overview](#project-overview)
   - [Sections](#sections)
   - [Questions We Hope to Answer with Data](#questions-we-hope-to-answer-with-data)
   - [Approach](#approach)
