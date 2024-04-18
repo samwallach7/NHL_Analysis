@@ -55,9 +55,12 @@ For the teams dataset, transformation involved aggregating team-level data, stan
 In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to load the transformed data into a SQL database. Psycopg2 provided a robust and efficient way to establish a connection to the database and execute SQL queries. We created tables in the database to store the player and team data, ensuring that the schema matched the format of the transformed data. Using psycopg2's functionality, we inserted the data into the respective tables, completing the ETL process and making the integrated data available for analysis and reporting.
 
 ### Database Design:
+Our database was designed to accommodate the specifics of the NHL data we were working with. Each dataset was given its own table, structured with carefully selected data types for each column to optimize storage and retrieval. To ensure unique identification of each entity, we implemented composite primary keys for both team and player records. This approach not only enhanced data integrity but also facilitated complex queries involving multiple tables.
 ### Preprocessing of Data:
-
+The preprocessing stage began with the teams dataset. Here, team_id was employed as the primary key, establishing a unique and consistent identifier across the database. The team_name served as another distinctive element, reinforcing the identification process. For relational integrity and to underscore the connections between teams and players, team_id was also used as a foreign key in the players dataset. This setup was crucial for linking team performances directly to their respective players, allowing for more nuanced analysis and insights.
 ## Analysis Phase
+Our analysis was robust and multi-dimensional. Utilizing the Pandas library, we cleaned and transformed the team data to prepare it for in-depth examination. For visual exploration and to present our findings in an intuitive format, we incorporated Matplotlib. This combination not only facilitated a deeper understanding of the data but also enabled us to uncover patterns and trends that were not immediately apparent. Through this comprehensive analysis, we were able to draw meaningful conclusions about team performances and their correlations with player statistics.
+
 
 ## Machine Learning
 ### Models used for Prediction:
