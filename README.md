@@ -22,7 +22,7 @@
 Hockey is one of the most popular sports in North America. The National Hockey League (NHL) was founded in 1917 and has experienced significant growth and transformation over the years. As a professional league develops, teams improve every facet of their organizations, from arenas and fan engagement to coaching, player acquisition and development. There is also an improvement over time in the players themselves. Professional athletes in general have become bigger, faster, stronger and more specialized as compared to their predecessors.
 In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, and 0 points for a regulation loss. These points are kept over the course of a season and used for the league standings and to determine the playoff teams and seeds at the end of the season.
 
-## Project Overview:
+## Project Overview
 
 We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. The project was broken up into three distinct sections throughout the Data Analysis & Visualization program, with each utilizing the different skills that we acquired during the cohort. 
 
@@ -43,7 +43,7 @@ We developed mutiple machine learning models based on the NHL data. The first it
 - How did the league evolve over time in reagrds to talent acquisiton?
 - Did generational players have an impact on the team annd average player statistics?
 
-## Data Exploration:
+## Data Exploration
 
 ### Data Retrieval
 Our ETL (Extract, Transform, Load) workflow was designed to consolidate diverse data sources into a unified format. This process is crucial for ensuring data consistency and reliability. Let's walk through each phase:
@@ -56,15 +56,15 @@ For the teams dataset, transformation involved aggregating team-level data, stan
 #### Load Phase
 In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to load the transformed data into a SQL database. Psycopg2 provided a robust and efficient way to establish a connection to the database and execute SQL queries. We created tables in the database to store the player and team data, ensuring that the schema matched the format of the transformed data. Using psycopg2's functionality, we inserted the data into the respective tables, completing the ETL process and making the integrated data available for analysis and reporting.
 
-### Database Design:
+### Database Design
 Our database was designed to accommodate the specifics of the NHL data we were working with. Each dataset was given its own table, structured with carefully selected data types for each column to optimize storage and retrieval. To ensure unique identification of each entity, we implemented composite primary keys for both team and player records. This approach not only enhanced data integrity but also facilitated complex queries involving multiple tables.
-### Preprocessing of Data:
+### Preprocessing of Data
 The preprocessing stage began with the teams dataset. Here, team_id was employed as the primary key, establishing a unique and consistent identifier across the database. The team_name served as another distinctive element, reinforcing the identification process. For relational integrity and to underscore the connections between teams and players, team_id was also used as a foreign key in the players dataset. This setup was crucial for linking team performances directly to their respective players, allowing for more nuanced analysis and insights.
 ## Analysis Phase
 Our analysis was robust and multi-dimensional. Utilizing the Pandas library, we cleaned and transformed the team data to prepare it for in-depth examination. For visual exploration and to present our findings in an intuitive format, we incorporated Matplotlib. This combination not only facilitated a deeper understanding of the data but also enabled us to uncover patterns and trends that were not immediately apparent. Through this comprehensive analysis, we were able to draw meaningful conclusions about team performances and their correlations with player statistics.
 
 ## Machine Learning
-### Models used for Prediction:
+### Models used for Prediction
 #### KMeans Clustering
 The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created with the Points earned per game as the y value in the plot, (1) using the Goals For per game, (2) using the Goals Against per game and (3) using the Goal Spread (Goals For per game - Goals Against per game). The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal output characteristics.
 
@@ -126,7 +126,7 @@ The Classification Report for the model:
 <img src="image_files/webpage_preview.gif" width=100% height=300px margin="auto" >
 
 
-### Team Performance:
+### Team Performance
 #### Has team performance changed over time?
 The distribution of team results tightens between the 1970’s to 2011, which we believe shows that the league’s competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary cap restrictions, draft structure and an increase in player quality and development helped to achieve these results. In general, a more balanced league provides greater entertainment value, as more teams have realistic chances of qualifying for the playoffs.
 
@@ -145,19 +145,19 @@ A steady increase in goals scored per game was observed from the 1950’s to the
 
 We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
 
-### Player Statictics:
+### Player Statictics
 #### How have individual player statistics evolved over time?
 The average goals scored (by player) and the average goals allowed (by goalie) decreased between the 1980’s to 2011. This matches up with the team-specific data above, where there was a noted decrease in goal scoring. Meanwhile, the average shots allowed increased and the average shots on goal fluctuated but remained about the same from the 1980’s to 2011. With more total shots but the same amount of shots on goal, that is a clear sign in defensive improvement of teams limiting the “quality” of shots that opponents take.
 
  ![image](https://github.com/samwallach7/NHL_Analysis/assets/148116220/215690a9-28c3-40ec-9ea2-c4c6b445278e)
 
-### Player Measurables:
+### Player Measurables
 #### How have player measurables evolved over time?
 There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
 
  ![image](https://github.com/samwallach7/NHL_Analysis/assets/148116220/df5e88dd-61ec-493f-9a1e-f067881a75de)
 
-### NHL Attendance:
+### NHL Attendance
 #### How has NHL fan attendance evolved over time?
 Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled. While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend.
 
@@ -165,7 +165,7 @@ Game attendance has consistently risen since the inception of the league. Specif
 
 The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
 
-### NHL Draft:
+### NHL Draft
 #### How has the search for professional talent evolved over the years?
 In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
 
@@ -178,41 +178,41 @@ We communicated and developed our project over virtual meetings through Zoom and
 
 Here's a list of technologies used in the project:
 
-1. Python libraries:
+### Python libraries
    - Matplotlib
    - Pandas
    - Numpy
    - Scipy
    - HvPlots
 
-2.Data manipulation:
+### Data manipulation
   - JSON files
   - CSV files
   - GeoJSON files
 
-3. API integration:
+### API integration:
    - API key management
    - Requests library
 
-4. Web development:
+### Web development
    - Dash 
    - JupyterDash
    - Plotly Express
    - Dash Leaflet
    - Flask
 
-5. Database interaction:
+### Database interaction
    - SQLAlchemy
    - PostgreSQL
    - psycopg
    - SQL connection
 
-6. Frontend technologies:
+### Frontend technologies
    - HTML
    - Anime.js
    - D3.js
 
-7. Miscellaneous:
+### Miscellaneous
    - Time module
    - OS module
    - Pathlib
@@ -224,9 +224,6 @@ Here's a list of technologies used in the project:
 - [<img src="https://github.com/Lena-Hill.png" width="50" height="50"> Lena Hill](https://github.com/Lena-Hill)
 - [<img src="https://github.com/derekjohnson7.png" width="50" height="50"> Dereck Johnson](https://github.com/derekjohnson7)
 - [<img src="https://github.com/Elodie0712.png" width="50" height="50"> Elodie Mwamba](https://github.com/Elodie0712)
-
-
-
 
 ## Resources
 https://www.kaggle.com/datasets/open-source-sports/professional-hockey-database?resource=download
