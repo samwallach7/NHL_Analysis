@@ -221,8 +221,11 @@ Here's a list of technologies used in the project:
 ## Members
 
 [<img src="https://github.com/samwallach7.png" width="50" height="50"> Sam Wallach](https://github.com/samwallach7)
+
 [<img src="https://github.com/Lena-Hill.png" width="50" height="50"> Lena Hill](https://github.com/Lena-Hill)
+
 [<img src="https://github.com/derekjohnson7.png" width="50" height="50"> Derek Johnson](https://github.com/derekjohnson7)
+
 [<img src="https://github.com/Elodie0712.png" width="50" height="50"> Elodie Mwamba](https://github.com/Elodie0712)
 
 ## Resources
