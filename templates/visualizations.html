@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Python Visualizations</title>
+  <link rel="stylesheet" href="../static/app.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <style>
+</style>
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style="font-size: large; text-align: center;">NHL Dashboard</a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5500/templates/project_overview.html#">Project Overview</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="http://127.0.0.1:5500/templates/visualizations.html">Section 1</a>
+          </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Section 2</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="http://127.0.0.1:5000">Player Info</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="http://127.0.0.1:5500/templates/geolocation.html">NHL Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="http://127.0.0.1:8050/">NHL Draft</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/templates/machineLearning.html">Section 3</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<br>
+
+<main>
+    <h3 style="margin: 30px;">Team Performance:</h3>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" style="text-align: center;">
+          <div class="carousel-item active">
+            <img src="../image_files/team_performance/Fig2.png" class="center-block w-100" alt="..." style="max-width: 600px; height: 400px;">
+          </div>
+          <div class="carousel-item" style="justify-content: center;">
+            <img src="../image_files/team_performance/Fig14.png" class="center-block w-100" alt="..." style="max-width: 600px; height: 400px;">
+          </div>
+          <div class="carousel-item" style="text-align: center;">
+            <img src="../image_files/team_performance/Fig13.png" class="center-block w-100" alt="..." style="max-width: 600px; height: 400px;">
+          </div>          
+          <div class="carousel-item" style="text-align: center;">
+            <img src="../image_files/team_performance/Fig3.png" class="center-block w-100" alt="..." style="max-width: 700px; height: 400px;">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <h5 style="margin: 30px;"><strong>Has team performance changed over time?</strong><br><br>The distribution of team results tightens between the 1970’s to 2011, which we believe shows that the league’s 
+    competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary 
+    cap restrictions, draft structure and an increase in player quality and development helped to achieve these r
+    esults. In general, a more balanced league provides greater entertainment value, as more teams have realistic 
+    chances of qualifying for the playoffs. <br><br> <strong>Has goal scoring evolved over time?
+    </strong><br><br>A steady increase in goals scored per game was observed from the 1950’s to the 1980’s. Subsequently, a decrease in goals per game is observed over the following 15 years (1980’s to 2000).
+    We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
+</h5>
+
+<h3 style="margin: 30px;">Player Statistics:</h3>
+<div style="text-align: center;">
+    <img src="../image_files/player_stats_output/subplot.png" style="height: 450px; width: 600px;">
+</div>
+
+<h5 style="margin: 30px;"><strong>How have individual player statistics evolved over time?</strong><br><br>
+The average goals scored (by player) and the average goals allowed (by goalie) decreased between the 1980’s to 2011.
+ This matches up with the team-specific data above, where there was a noted decrease in goal scoring. Meanwhile, the 
+ average shots allowed increased and the average shots on goal fluctuated but remained about the same from the 1980’s to 2011. 
+ With more total shots but the same amount of shots on goal, that is a clear sign in defensive improvement of teams limiting the 
+ “quality” of shots that opponents take.
+<br><br> <strong>Has goal scoring evolved over time?
+</strong><br><br>A steady increase in goals scored per game was observed from the 1950’s to the 1980’s. Subsequently, a decrease in goals per game is observed over the following 15 years (1980’s to 2000).
+We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
+</h5>
+
+<h3 style="margin: 30px;">Player Measurables:</h3>
+<div style="text-align: center;">
+    <img src="../image_files/player_stats_output/measurables.png" style="height: 450px; width: 600px;">
+</div>
+<h5 style="margin: 30px;"><strong>How have player measurables evolved over time?
+</strong><br><br>There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human 
+population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
+</h5>
+<h3 style="margin: 30px;">NHL Attendance:</h3>
+<div style="text-align: center;">
+    <img src="../image_files/player_stats_output/attendance.png" style="height: 450px; width: 600px;">
+</div>
+<h5 style="margin: 30px;"><strong>How has NHL fan attendance evolved over time?
+</strong><br><br>Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled.
+ While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend. <br>
+ The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which 
+ limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
+</h5>
+<h3 style="margin: 30px;">NHL Draft:</h3>
+<div style="text-align: center;">
+    <img src="../image_files/nhl_draft/NHLDRAFTCOUNT.png" style="height: 450px; width: 600px;">
+</div>
+<h5 style="margin: 30px;"><strong>How has the search for professional talent evolved over the years?
+</strong><br><br>In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, 
+there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
+</h5>
+</main>
+  
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- chatbox script-->
+<script>
+    window.embeddedChatbotConfig = {
+    chatbotId: "FH8H4zlS4cQihjwvSSAXm",
+    domain: "www.chatbase.co"
+    }
+    </script>
+    <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="FH8H4zlS4cQihjwvSSAXm"
+    domain="www.chatbase.co"
+    defer>
+    </script>
+</body>
+
+ 
+
+</html>

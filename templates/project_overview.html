@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NHL Project Overview</title>
+  <link rel="stylesheet" href="../static/app.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#" style="font-size: large; text-align: center;">NHL Dashboard</a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="http://127.0.0.1:5500/templates/project_overview.html#">Project Overview</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:5500/templates/visualizations.html">Section 1</a>
+                </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Section 2</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="http://127.0.0.1:5000">Player Info</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="http://127.0.0.1:5500/templates/geolocation.html">NHL Map</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="http://127.0.0.1:8050/">NHL Draft</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:5500/templates/machineLearning.html">Section 3</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+<br>
+
+<main>
+    <div style = "margin: 20px">
+        <h3>Project Overview:</h3>
+        <p>Professional sports leagues experience significant growth and transformation over their years of existence. 
+            We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. 
+            This project will predict each season’s playoff participants and show the impact that team stats such as goals scored per game, penalty minutes incurred, etc. have on a team’s playoff chances.
+        <br> <br>
+        <strong>This project is broken into 3 sections based on the programs we used to answer our overarching questions:</strong>
+        <ol>
+            <li>
+                <strong>Section 1:</strong> Python Visualizations<br>In this project, we utilize Python to create compelling visualizations that help interpret the 
+                complex data sets of NHL statistics and trends, providing clear insights through graphical representations.
+
+            </li>
+            <br>
+            <li>
+                <strong>Section 2:</strong> JavaScript, Leaflet, Flask, Dash, and Pyscopg2 <br> We integrate a combination of JavaScript, Flask, Dash, and Psycopg2 
+                to develop an interactive web application that allows users to explore and manipulate data through a user-friendly interface, enhancing 
+                the accessibility and usability of our analysis.
+
+            </li>
+            <br>
+            <li>
+                <strong>Section 3:</strong> Machine Learning - Logistic and Linear Regression Models <br>Our machine learning component employs logistic and linear regression 
+                models to predict future trends and player performance in the NHL, leveraging historical data to provide statistically grounded forecasts.
+
+            </li>
+        </ol>
+        </p>
+        <h3>Background:</h3>
+        <p>
+            Hockey is one of the most popular sports in North America. The National Hockey League (NHL) was founded in 1917 and has experienced significant growth and transformation over the years. 
+            As a professional league develops, teams improve every facet of their organizations, from arenas and fan engagement to coaching, player acquisition and development. There is also an improvement over time in the players themselves. 
+            Professional athletes in general have become bigger, faster, stronger and more specialized as compared to their predecessors. In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, and 0 points for a regulation loss. 
+            These points are kept over the course of a season and used for the league standings and to determine the playoff teams and seeds at the end of the season.
+        </p>
+        <h3>Questions We Hope to Answer with Data:</h3>
+        <ul>
+            <li>
+                On a per game basis, did noticeable shifts occur over time in relation to team performance? 
+                How can these fluctuations be explained when considering the evolution of offensive and defensive philosophies?
+            </li>
+            <li>
+                Most professional sports leagues have developed a goal of achieving a competitive balance (evidenced by the introduction of salary caps, 
+                player drafts, among others…). This in theory improves the product league-wide and gives teams a better chance to win any given game. 
+                Is this competitive balance exhibited when assessing a team’s point output in a given season?
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!-- about the team -->
+    <div class="row">
+        <div class="col-lg-3">
+            <img src="https://media.licdn.com/dms/image/D5603AQFLUkSbPY_QVw/profile-displayphoto-shrink_800_800/0/1703382260056?e=1718841600&v=beta&t=7uUiQ4VugJx3aXE3tKf3-G6t7bHZGOfI9Ddh4A4ZWnw" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                alt="Elodie Mwamba Headshot">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                    dy=".3em"></text>
+            </svg>
+            <h2>Elodie Mwamba</h2>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/elodie-mwamba/" role="button">View LinkedIn &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://github.com/Elodie0712" role="button">View GitHub &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+            <img src="https://media.licdn.com/dms/image/D5635AQF8FLrkXpCCLQ/profile-framedphoto-shrink_800_800/0/1708439982257?e=1713841200&v=beta&t=ThxT_mufbptXONP8avgS7JLZXce07iXLSqdRymeLMpQ" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                alt="Sam Wallach Headshot">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                    dy=".3em"></text>
+            </svg>
+            <h2>Sam Wallach</h2>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/samwallach/" role="button">View LinkedIn &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://github.com/samwallach7" role="button">View GitHub &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+            <img src="https://media.licdn.com/dms/image/D5635AQHGfB74RGBK0g/profile-framedphoto-shrink_800_800/0/1710688739071?e=1713841200&v=beta&t=UrqUcb8Yigyg9mqjEvZIxQhNdQmCP2OATV9vwjaR6zk" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                alt="Lena Hill Headshot">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                    dy=".3em"></text>
+            </svg>
+            <h2>Lena Hill</h2>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/lena-hill-5924801b7/" role="button">View LinkedIn &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/lena-hill-5924801b7/" role="button">View GitHub &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+            <img src="https://media.licdn.com/dms/image/D5603AQGXQVPCcsLseg/profile-displayphoto-shrink_800_800/0/1697397854757?e=1718841600&v=beta&t=dydNAU49Nh3FfIr3htPeOU5XuUedWUBEjl48cjLETzI" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                alt="Derek Johnson Headshot">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                    dy=".3em"></text>
+            </svg>
+            <h2>Derek Johnson</h2>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/derek-j-96566914a/" role="button">View LinkedIn &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://github.com/Lena-Hill" role="button">View GitHub &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+</main>
+  
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+ 
+
+</html>
