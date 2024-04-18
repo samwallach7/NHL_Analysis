@@ -31,7 +31,7 @@ We set out to analyze the progression of the National Hockey League (NHL) over t
 We started with determining a topic for the project and finding relevant datasets to utilize. We found a folder of hockey-related data on Kaggle that featured files on team performance, player performance, coaches, awards and more. We utilized Python to clean, manipulate and visualize the data and then develop conclusions based on these inital findings.
 
 #### Section II (JavaScript, HTML, Leaflet)
-We developed a page with multiple tabs that utilized JavaScript, HTML and CSS formatting. The first page featured a player selector tool that allows a user to choose a player from a list and see their stats for the most recent season. The second page featured a Leaflet map of each NHL team and their minor league affiliates (locations were marked on the map with their team logos), and map layers to sort out certain performance metrics (playoff percentage, Stanley Cup titles, etc.). The final page featured a selector tool realted to the NHL draft where the user can select a year from the list and see the nationality breakdown from that draft.
+We developed a webpage with multiple tabs that utilized JavaScript, HTML and CSS formatting. The first page featured a player selector tool that allows a user to choose a player from a list and see their stats for the most recent season. The second page featured a Leaflet map of each NHL team and their minor league affiliates (locations were marked on the map with their team logos), and map layers to sort out certain performance metrics (playoff percentage, Stanley Cup titles, etc.). The final page featured a selector tool realted to the NHL draft where the user can select a year from the list and see the nationality breakdown from that draft.
 
 #### Section III (Machine Learning)
 We developed mutiple machine learning models based on the NHL data. The first item was a KMeans model that would build clusters based on team metrics and predict playoff participation. We built plots to highlight Goals For vs. Points, Goals Against vs. Points, and Goal Spread vs. Points. The second item was a Logistic Regression for playoff participation that we tried to optimize the accuracy on by utilizing team goal, penalty and efficiency metrics. Finally, we built a Linear Regression to predict player perfomance for an upcoming season based on historical data.
@@ -41,7 +41,7 @@ We developed mutiple machine learning models based on the NHL data. The first it
 - On a per game basis, did noticeable shifts occur over time in relation to team performance? How can these fluctuations be explained when considering the evolution of offensive and defensive philosophies?
 - Most professional sports leagues have developed a goal of achieving a competitive balance (evidenced by the introduction of salary caps, player drafts, among others…). This in theory improves the product league-wide and gives teams a better chance to win any given game. Is this competitive balance exhibited when assessing a team’s point output in a given season?
 - How did the league evolve over time in reagrds to talent acquisiton?
-- Did generational players have an impact on the team annd average player statistics?
+- Did generational players have an impact on the team and average player statistics?
 
 ## Data Exploration
 
