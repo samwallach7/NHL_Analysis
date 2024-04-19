@@ -1,0 +1,33 @@
+TeamID,Key,Active,City,Name,StadiumID,Conference,Division,PrimaryColor,SecondaryColor,TertiaryColor,QuaternaryColor,WikipediaLogoUrl,WikipediaWordMarkUrl,GlobalTeamID,HeadCoach
+1,BOS,True,Boston,Bruins,3,Eastern,Atlantic,000000,FDB717,,,https://upload.wikimedia.org/wikipedia/commons/1/12/Boston_Bruins.svg,,30000001,Jim Montgomery
+2,BUF,True,Buffalo,Sabres,4,Eastern,Atlantic,003087,FFB81C,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/9/9e/Buffalo_Sabres_Logo.svg,,30000002,Don Granato
+3,DET,True,Detroit,Red Wings,11,Eastern,Atlantic,C8102E,FFFFFF,,,https://upload.wikimedia.org/wikipedia/en/e/e0/Detroit_Red_Wings_logo.svg,,30000003,Derek Lalonde
+4,MON,True,Montreal,Canadiens,16,Eastern,Atlantic,A6192E,FFFFFF,001E62,,https://upload.wikimedia.org/wikipedia/commons/6/69/Montreal_Canadiens.svg,,30000004,Martin St. Louis
+5,OTT,True,Ottawa,Senators,21,Eastern,Atlantic,010101,C8102E,B9975B,FFFFFF,https://upload.wikimedia.org/wikipedia/en/d/db/Ottawa_Senators.svg,,30000005,Jacques Martin (Interim)
+6,TB,True,Tampa Bay,Lightning,26,Eastern,Atlantic,00205B,FFFFFF,000000,,https://upload.wikimedia.org/wikipedia/commons/3/31/Tampa_Bay_Lightning_2011.svg,,30000006,Jon Cooper
+7,TOR,True,Toronto,Maple Leafs,27,Eastern,Atlantic,00205B,FFFFFF,,,https://upload.wikimedia.org/wikipedia/en/b/b6/Toronto_Maple_Leafs_2016_logo.svg,,30000007,Sheldon Keefe
+8,FLA,True,Florida,Panthers,13,Eastern,Atlantic,C8102E,041E42,B9975B,FFFFFF,https://upload.wikimedia.org/wikipedia/en/4/43/Florida_Panthers_2016_logo.svg,,30000008,Paul Maurice
+9,CAR,True,Carolina,Hurricanes,5,Eastern,Metropolitan,C8102E,FFFFFF,A2AAAD,010101,https://upload.wikimedia.org/wikipedia/en/3/32/Carolina_Hurricanes.svg,,30000009,Rod Brind'Amour
+10,NJ,True,New Jersey,Devils,18,Eastern,Metropolitan,CC0000,000000,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/9/9f/New_Jersey_Devils_logo.svg,,30000010,Lindy Ruff
+11,NYI,True,New York,Islanders,48,Eastern,Metropolitan,00468B,F26924,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/4/42/Logo_New_York_Islanders.svg,,30000011,Patrick Roy
+12,NYR,True,New York,Rangers,20,Eastern,Metropolitan,0033A0,C8102E,FFFFFF,,https://upload.wikimedia.org/wikipedia/commons/a/ae/New_York_Rangers.svg,,30000012,Peter Laviolette
+13,PHI,True,Philadelphia,Flyers,22,Eastern,Metropolitan,D24303,000000,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/d/dc/Philadelphia_Flyers.svg,,30000013,John Tortorella
+14,PIT,True,Pittsburgh,Penguins,23,Eastern,Metropolitan,000000,FFB81C,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/c/c0/Pittsburgh_Penguins_logo_%282016%29.svg,,30000014,Mike Sullivan
+15,WAS,True,Washington,Capitals,29,Eastern,Metropolitan,C8102E,FFFFFF,041E42,,https://upload.wikimedia.org/wikipedia/commons/2/2d/Washington_Capitals.svg,,30000015,Spencer Carbery
+16,CBJ,True,Columbus,Blue Jackets,6,Eastern,Metropolitan,041E42,C8102E,A2AAAD,FFFFFF,https://upload.wikimedia.org/wikipedia/en/5/5d/Columbus_Blue_Jackets_logo.svg,,30000016,Pascal Vincent
+17,CHI,True,Chicago,Blackhawks,8,Western,Central,CE1126,010101,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/2/29/Chicago_Blackhawks_logo.svg,,30000017,Luke Richardson
+18,DAL,True,Dallas,Stars,10,Western,Central,00823E,000000,A2AAAD,FFFFFF,https://upload.wikimedia.org/wikipedia/en/c/ce/Dallas_Stars_logo_%282013%29.svg,,30000018,Peter DeBoer
+19,COL,True,Colorado,Avalanche,9,Western,Central,8A2432,236093,C2C6C9,000000,https://upload.wikimedia.org/wikipedia/en/4/45/Colorado_Avalanche_logo.svg,,30000019,Jared Bednar
+20,STL,True,St. Louis,Blues,25,Western,Central,003087,FFB81C,041E42,FFFFFF,https://upload.wikimedia.org/wikipedia/en/e/ed/St._Louis_Blues_logo.svg,,30000020,Drew Bannister (Interim)
+21,NAS,True,Nashville,Predators,17,Western,Central,FFB81C,041E42,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/9/9c/Nashville_Predators_Logo_%282011%29.svg,,30000021,Andrew Brunette
+22,WPG,True,Winnipeg,Jets,30,Western,Central,041E42,004A98,A2AAAD,A6192E,https://upload.wikimedia.org/wikipedia/en/9/93/Winnipeg_Jets_Logo_2011.svg,,30000022,Rick Bowness
+23,MIN,True,Minnesota,Wild,15,Western,Central,0E4431,AC1A2E,EAAA00,DDC9A3,https://upload.wikimedia.org/wikipedia/en/1/1b/Minnesota_Wild.svg,,30000023,John Hynes
+24,CGY,True,Calgary,Flames,7,Western,Pacific,C8102E,F1BE48,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/6/61/Calgary_Flames_logo.svg,,30000024,Ryan Huska
+25,EDM,True,Edmonton,Oilers,12,Western,Pacific,00205B,D14520,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/4/4d/Logo_Edmonton_Oilers.svg,,30000025,Kris Knoblauch
+26,LA,True,Los Angeles,Kings,14,Western,Pacific,000000,A2AAAD,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Los_Angeles_Kings_logo.svg/800px-Los_Angeles_Kings_logo.svg.png,,30000026,Jim Hiller (Interim)
+27,SJ,True,San Jose,Sharks,24,Western,Pacific,006272,000000,E57200,,https://upload.wikimedia.org/wikipedia/en/3/37/SanJoseSharksLogo.svg,,30000027,David Quinn
+28,VAN,True,Vancouver,Canucks,28,Western,Pacific,00205B,007E3A,FFFFFF,,https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Vancouver_Canucks_logo.svg/800px-Vancouver_Canucks_logo.svg.png,,30000028,Rick Tocchet
+29,ARI,True,Arizona,Coyotes,61,Western,Central,010101,6F263D,154734,DDCBA4,https://upload.wikimedia.org/wikipedia/en/9/9e/Arizona_Coyotes_logo_%282021%29.svg,,30000029,André Tourigny
+30,ANA,True,Anaheim,Ducks,1,Western,Pacific,010101,B9975B,FC4C02,A2AAAD,https://upload.wikimedia.org/wikipedia/en/7/72/Anaheim_Ducks.svg,,30000030,Greg Cronin
+35,VEG,True,Vegas,Golden Knights,31,Western,Pacific,333F48,B9975B,C8102E,000000,https://upload.wikimedia.org/wikipedia/en/a/ac/Vegas_Golden_Knights_logo.svg,,30000035,Bruce Cassidy
+36,SEA,True,Seattle,Kraken,43,Western,Pacific,001425,96D8D8,384F5F,639FB6,https://upload.wikimedia.org/wikipedia/en/4/48/Seattle_Kraken_official_logo.svg,,30000036,Dave Hakstol

@@ -1,0 +1,33 @@
+Season,SeasonType,TeamID,Key,City,Name,Conference,Division,Wins,Losses,OvertimeLosses,Percentage,ConferenceWins,ConferenceLosses,DivisionWins,DivisionLosses,ShutoutWins,ConferenceRank,DivisionRank,GlobalTeamID
+2023,1,1,BOS,Boston,Bruins,Eastern,Atlantic,65,12,5,0.793,40,10,18,8,7,1,1,30000001
+2023,1,7,TOR,Toronto,Maple Leafs,Eastern,Atlantic,50,22,11,0.602,31,19,15,11,5,4,2,30000007
+2023,1,6,TB,Tampa Bay,Lightning,Eastern,Atlantic,46,30,6,0.561,25,25,12,14,5,6,3,30000006
+2023,1,2,BUF,Buffalo,Sabres,Eastern,Atlantic,42,33,7,0.512,24,26,12,14,2,10,5,30000002
+2023,1,8,FLA,Florida,Panthers,Eastern,Atlantic,42,32,8,0.512,29,21,17,9,3,8,4,30000008
+2023,1,5,OTT,Ottawa,Senators,Eastern,Atlantic,39,35,8,0.476,28,22,15,11,3,11,6,30000005
+2023,1,3,DET,Detroit,Red Wings,Eastern,Atlantic,35,37,10,0.427,20,30,9,17,4,12,7,30000003
+2023,1,4,MON,Montreal,Canadiens,Eastern,Atlantic,31,45,6,0.378,17,33,6,20,1,15,8,30000004
+2023,1,9,CAR,Carolina,Hurricanes,Eastern,Metropolitan,52,21,9,0.634,34,16,19,7,9,2,1,30000009
+2023,1,10,NJ,New Jersey,Devils,Eastern,Metropolitan,52,22,8,0.634,30,20,18,8,4,3,2,30000010
+2023,1,12,NYR,New York,Rangers,Eastern,Metropolitan,47,22,13,0.573,26,24,15,11,4,5,3,30000012
+2023,1,11,NYI,New York,Islanders,Eastern,Metropolitan,42,31,9,0.512,26,24,16,10,7,7,4,30000011
+2023,1,14,PIT,Pittsburgh,Penguins,Eastern,Metropolitan,40,31,11,0.488,20,30,10,16,2,9,5,30000014
+2023,1,15,WAS,Washington,Capitals,Eastern,Metropolitan,35,37,10,0.427,20,30,12,14,5,13,6,30000015
+2023,1,13,PHI,Philadelphia,Flyers,Eastern,Metropolitan,31,38,13,0.378,17,33,7,19,3,14,7,30000013
+2023,1,16,CBJ,Columbus,Blue Jackets,Eastern,Metropolitan,25,48,9,0.305,13,37,7,19,0,16,8,30000016
+2023,1,19,COL,Colorado,Avalanche,Western,Central,51,24,7,0.622,33,17,19,7,6,3,1,30000019
+2023,1,18,DAL,Dallas,Stars,Western,Central,47,21,14,0.573,30,20,18,8,6,4,2,30000018
+2023,1,23,MIN,Minnesota,Wild,Western,Central,46,25,11,0.561,29,21,16,10,4,6,3,30000023
+2023,1,22,WPG,Winnipeg,Jets,Western,Central,46,33,3,0.561,31,19,18,8,4,8,4,30000022
+2023,1,21,NAS,Nashville,Predators,Western,Central,42,32,8,0.512,25,25,9,17,2,10,5,30000021
+2023,1,20,STL,St. Louis,Blues,Western,Central,37,38,7,0.451,23,27,9,17,4,12,6,30000020
+2023,1,29,ARI,Arizona,Coyotes,Western,Central,28,41,14,0.337,14,36,9,17,4,13,7,30000029
+2023,1,17,CHI,Chicago,Blackhawks,Western,Central,26,49,7,0.317,15,35,6,20,2,15,8,30000017
+2023,1,35,VEG,Vegas,Golden Knights,Western,Pacific,51,22,9,0.622,29,21,14,12,3,1,1,30000035
+2023,1,25,EDM,Edmonton,Oilers,Western,Pacific,50,23,9,0.61,33,17,19,7,2,2,2,30000025
+2023,1,26,LA,Los Angeles,Kings,Western,Pacific,47,25,10,0.573,30,20,15,11,3,5,3,30000026
+2023,1,36,SEA,Seattle,Kraken,Western,Pacific,46,28,8,0.561,27,23,13,13,3,7,4,30000036
+2023,1,28,VAN,Vancouver,Canucks,Western,Pacific,38,37,7,0.463,28,22,16,10,1,11,6,30000028
+2023,1,24,CGY,Calgary,Flames,Western,Pacific,38,27,17,0.463,26,24,16,10,1,9,5,30000024
+2023,1,30,ANA,Anaheim,Ducks,Western,Pacific,23,48,12,0.277,13,37,7,19,1,16,8,30000030
+2023,1,27,SJ,San Jose,Sharks,Western,Pacific,22,44,16,0.268,14,36,4,22,4,14,7,30000027

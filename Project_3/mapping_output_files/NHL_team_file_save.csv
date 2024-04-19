@@ -1,0 +1,118 @@
+tmno,year_,lgid,tmid,franchid,teamname,lat,long,conference,totalseasons,pointpercent,playoffseasons,playoffpercent,scappearances,stanleycupwins,active,lastseason,teamchange,teamchangelat,teamchangelong,nhlaffiliate,ahlaffiliate,echlaffiliate
+1,1917,NHL,MTL,MTL,Montreal Canadiens,45.49611,-73.56944,Eastern,106,0.58,85,0.802,33,23,yes,2022,n/a,0.0,0.0,n/a,Laval Rocket,Trois-Rivieres Lions
+2,1917,NHL,MTW,MTW,Montreal Wanderers,45.48,-73.59483,n/a,1,0.167,0,0.0,0,0,no,1917,n/a,0.0,0.0,n/a,n/a,n/a
+3,1917,NHL,STE,STE,St. Louis Eagles,38.62667,-90.2025,n/a,18,0.514,10,0.556,4,4,no,1935,n/a,0.0,0.0,n/a,n/a,n/a
+4,1917,NHL,TOR,TOR,Toronto Maple Leafs,43.64333,-79.37917,Eastern,106,0.518,72,0.679,21,13,yes,2022,n/a,0.0,0.0,n/a,Toronto Marlies,Newfoundland Growlers
+5,1917,NHL,OTS,STE,Ottawa Senators,45.29694,-75.92722,n/a,17,0.534,0,0.0,0,0,moved,1934,St. Louis Eagles,38.62667,-90.2025,n/a,n/a,n/a
+6,1917,NHL,TOA,TOR,Toronto Arenas,43.64333,-79.37917,n/a,2,0.45,0,0.0,0,0,moved,1919,Toronto St. Patricks,43.64333,-79.37917,n/a,n/a,n/a
+7,1919,NHL,QUB,BKN,Quebec Bulldogs,46.49,-71.1351,n/a,1,0.167,0,0.0,0,0,moved,1920,Hamilton Tigers,43.1525,-79.5047,n/a,n/a,n/a
+8,1919,NHL,BKN,BKN,Brooklyn Americans,40.75056,-73.99361,n/a,23,0.406,5,0.217,0,0,no,1942,n/a,0.0,0.0,n/a,n/a,n/a
+9,1919,NHL,TRS,TOR,Toronto St. Patricks,43.64333,-79.37917,n/a,8,0.496,0,0.0,0,0,moved,1927,Toronto Maple Leafs,43.64333,-79.37917,n/a,n/a,n/a
+10,1920,NHL,HAM,BKN,Hamilton Tigers,43.1525,-79.5047,n/a,5,0.377,0,0.0,0,0,moved,1925,New York Americans,40.75056,-73.99361,n/a,n/a,n/a
+11,1924,NHL,BOS,BOS,Boston Bruins,42.3663,-71.06223,Eastern,99,0.568,76,0.768,20,6,yes,2022,n/a,0.0,0.0,n/a,Providence Bruins,Maine Mariners
+12,1924,NHL,MTM,MTM,Montreal Maroons,45.49611,-73.56944,n/a,11,0.509,11,1.0,3,2,no,1935,n/a,0.0,0.0,n/a,n/a,n/a
+13,1925,NHL,NYA,BKN,New York Americans,40.75056,-73.99361,n/a,16,0.409,0,0.0,0,0,moved,1941,Brooklyn Americans,40.75056,-73.99361,n/a,n/a,n/a
+14,1925,NHL,PHQ,PHQ,Philadelphia Quakers,39.9579,-75.2117,n/a,6,0.33,2,0.333,0,0,no,1931,n/a,0.0,0.0,n/a,n/a,n/a
+15,1925,NHL,PIP,PHQ,Pittsburgh Pirates,40.44748,-79.94902,n/a,5,0.37,0,0.0,0,0,moved,1930,Philadelphia Quakers,39.9579,-75.2117,n/a,n/a,n/a
+16,1926,NHL,DTC,DET,Detroit Cougars,42.55126,-83.21786,n/a,4,0.435,0,0.0,0,0,moved,1930,Detroit Falcons,42.55126,-83.21786,n/a,n/a,n/a
+17,1926,NHL,CHI,CHI,Chicago Blackhawks,41.88056,-87.67417,Western,97,0.499,63,0.65,13,6,yes,2022,n/a,0.0,0.0,n/a,Rockford IceHogs,Indy Fuel
+18,1926,NHL,DET,DET,Detroit Red Wings,42.55126,-83.21786,Eastern,97,0.531,64,0.66,24,11,yes,2022,n/a,0.0,0.0,n/a,Grand Rapids Griffins,Toledo Walleye
+19,1926,NHL,NYR,NYR,New York Rangers,40.75056,-73.99361,Eastern,97,0.518,62,0.639,11,4,yes,2022,n/a,0.0,0.0,n/a,Hartford Wolf Pack,Cincinnati Cyclones
+20,1930,NHL,DTF,DET,Detroit Falcons,42.55126,-83.21786,n/a,2,0.462,0,0.0,0,0,moved,1932,Detroit Red Wings,42.55126,-83.21786,n/a,n/a,n/a
+21,1967,NHL,OAK,CLE,Oakland Seals,37.75051,-122.20253,n/a,3,0.385,0,0.0,0,0,moved,1970,California Golden Seals,37.75051,-122.20253,n/a,n/a,n/a
+22,1967,NHL,MNS,DAL,Minnesota North Stars,44.94472,-93.10111,n/a,26,0.449,0,0.0,0,0,moved,1993,Dallas Stars,32.79056,-96.81028,n/a,n/a,n/a
+23,1967,NHL,CLE,CLE,Cleveland Barons,41.1443,-81.3538,n/a,11,0.349,2,0.182,0,0,no,1978,n/a,0.0,0.0,n/a,n/a,n/a
+24,1967,NHL,DAL,DAL,Dallas Stars,32.79056,-96.81028,Western,56,0.522,35,0.625,5,1,yes,2022,n/a,0.0,0.0,n/a,Texas Stars,Idaho Steelheads
+25,1967,NHL,LAK,LAK,Los Angeles Kings,34.04306,-118.26722,Western,56,0.497,32,0.571,3,2,yes,2022,n/a,0.0,0.0,n/a,Ontario Reign,Greenville Swamp Rabbits
+26,1967,NHL,PHI,PHI,Philadelphia Flyers,39.90111,-75.17194,Eastern,56,0.569,40,0.714,8,2,yes,2022,n/a,0.0,0.0,n/a,Lehigh Valley Phantoms,Reading Royals
+27,1967,NHL,PIT,PIT,Pittsburgh Penguins,40.43944,-79.98917,Eastern,56,0.523,37,0.661,6,5,yes,2022,n/a,0.0,0.0,n/a,Wilkes-Barre/Scranton Penguins,Wheeling Nailers
+28,1967,NHL,STL,STL,St. Louis Blues,38.62667,-90.2025,Western,56,0.536,45,0.804,4,1,yes,2022,n/a,0.0,0.0,n/a,Springfield Thunderbirds,n/a
+29,1970,NHL,CLF,CLE,California Golden Seals,37.75051,-122.20253,n/a,6,0.323,0,0.0,0,0,moved,1976,Cleveland Barons,41.1443,-81.3538,n/a,n/a,n/a
+30,1970,NHL,BUF,BUF,Buffalo Sabres,42.875,-78.87639,Eastern,53,0.529,29,0.547,2,0,yes,2022,n/a,0.0,0.0,n/a,Rochester Americans,Jacksonville Icemen
+31,1970,NHL,VAN,VAN,Vancouver Canucks,49.27778,-123.10889,Western,53,0.492,28,0.528,3,0,yes,2022,n/a,0.0,0.0,n/a,Abbotsford Canucks,Kalamazoo Wings
+32,1972,NHL,ATF,CAL,Atlanta Flames,33.75744,-84.39593,n/a,8,0.506,0,0.0,0,0,moved,1980,Calgary Flames,51.0375,-114.05194,n/a,n/a,n/a
+33,1972,NHL,CAL,CAL,Calgary Flames,51.0375,-114.05194,Western,51,0.539,31,0.608,3,1,yes,2022,n/a,0.0,0.0,n/a,Calgary Wranglers,Rapid City Rush
+34,1972,NHL,NYI,NYI,New York Islanders,40.68266,-73.97523,Eastern,51,0.515,28,0.549,5,4,yes,2022,n/a,0.0,0.0,n/a,Bridgeport Islanders,Worcester Railers
+35,1974,NHL,KCS,NJD,Kansas City Scouts,39.09194,-94.6053,n/a,2,0.241,0,0.0,0,0,moved,1976,Colorado Rockies,39.4434,-105.0121,n/a,n/a,n/a
+36,1974,NHL,NJD,NJD,New Jersey Devils,40.73361,-74.17111,Eastern,49,0.493,24,0.49,5,3,yes,2022,n/a,0.0,0.0,n/a,Utica Comets,Adirondack Thunder
+37,1974,NHL,WAS,WAS,Washington Capitals,38.89806,-77.02083,Eastern,49,0.533,32,0.653,2,1,yes,2022,n/a,0.0,0.0,n/a,Hershey Bears,South Carolina Stringrays
+38,1976,NHL,COR,NJD,Colorado Rockies,39.4434,-105.0121,n/a,6,0.325,0,0.0,0,0,moved,1982,New Jersey Devils,40.73361,-74.17111,n/a,n/a,n/a
+39,1979,NHL,HAR,CAR,Hartford Whalers,41.76863,-72.67655,n/a,18,0.438,0,0.0,0,0,moved,1997,Carolina Hurricanes,35.80333,-78.72194,n/a,n/a,n/a
+40,1979,NHL,QUE,COL,Quebec Nordiques,46.83096,-71.2459,n/a,16,0.459,0,0.0,0,0,moved,1995,Colorado Avalanche,39.74861,-105.0075,n/a,n/a,n/a
+41,1979,NHL,ARI,ARI,Arizona Coyotes,33.53194,-112.26111,Western,44,0.474,20,0.455,0,0,yes,2022,n/a,0.0,0.0,n/a,Tucson Roadrunners,n/a
+42,1979,NHL,CAR,CAR,Carolina Hurricanes,35.80333,-78.72194,Eastern,44,0.501,18,0.409,2,1,yes,2022,n/a,0.0,0.0,n/a,n/a,n/a
+43,1979,NHL,COL,COL,Colorado Avalanche,39.74861,-105.0075,Western,44,0.537,28,0.636,3,3,yes,2022,n/a,0.0,0.0,n/a,Colorado Eagles,Utah Grizzlies
+44,1979,NHL,EDM,EDM,Edmonton Oilers,53.57139,-113.45611,Western,44,0.528,25,0.568,7,5,yes,2022,n/a,0.0,0.0,n/a,Bakersfield Condors,Fort Wayne Komets
+45,1979,NHL,WIN,ARI,Winnipeg Jets,49.89278,-97.14361,n/a,17,0.443,0,0.0,0,0,moved,1996,Phoenix Coyotes,33.53194,-112.26111,n/a,n/a,n/a
+46,1991,NHL,SJS,SJS,San Jose Sharks,37.33278,-121.90111,Western,32,0.52,21,0.656,1,0,yes,2022,n/a,0.0,0.0,n/a,San Jose Barracuda,Wichita Thunder
+47,1992,NHL,OTT,OTT,Ottawa Senators,45.29694,-75.92722,Eastern,31,0.505,16,0.516,1,0,yes,2022,n/a,0.0,0.0,n/a,Belleville Senators,Allen Americans
+48,1992,NHL,TBL,TBL,Tampa Bay Lightning,27.94278,-82.45194,Eastern,31,0.519,15,0.484,5,3,yes,2022,n/a,0.0,0.0,n/a,Syracuse Crunch,Orlando Solar Bears
+49,1993,NHL,ANA,ANA,Anaheim Ducks,33.80778,-117.87667,Western,30,0.524,14,0.467,2,1,yes,2022,n/a,0.0,0.0,n/a,San Diego Gulls,Tulsa Oilers
+50,1993,NHL,FLO,FLO,Florida Panthers,26.15833,-80.32556,Eastern,30,0.52,9,0.3,2,0,yes,2022,n/a,0.0,0.0,n/a,Charlotte Checkers,Florida Everblades
+51,1996,NHL,PHO,ARI,Phoenix Coyotes,33.53194,-112.26111,n/a,18,0.525,0,0.0,0,0,moved,2014,Arizona Coyotes,33.53194,-112.26111,n/a,n/a,n/a
+52,1998,NHL,NAS,NAS,Nashville Predators,36.15917,-86.77861,Western,25,0.559,15,0.6,1,0,yes,2022,n/a,0.0,0.0,n/a,Milwaukee Admirals,Atlanta Gladiators
+53,1999,NHL,WPG,WPG,Winnipeg Jets,49.89278,-97.14361,Western,24,0.51,7,0.292,0,0,yes,2022,n/a,0.0,0.0,n/a,Manitoba Moose,Norfolk Admirals
+54,1999,NHL,ATL,WPG,Atlanta Thrashers,33.75744,-84.39593,n/a,12,0.447,0,0.0,0,0,moved,2011,Winnipeg Jets,49.89278,-97.14361,n/a,n/a,n/a
+55,2000,NHL,CBS,CBS,Columbus Blue Jackets,39.96928,-83.00611,Eastern,23,0.485,6,0.261,0,0,yes,2022,n/a,0.0,0.0,n/a,Cleveland Monsters,n/a
+56,2000,NHL,MIN,MIN,Minnesota Wild,44.94472,-93.10111,Western,23,0.56,13,0.565,0,0,yes,2022,n/a,0.0,0.0,n/a,Iowa Wild,Iowa Heartlanders
+57,2016,NHL,VGK,VGK,Vegas Golden Knights,36.10278,-115.17833,Western,7,0.63,5,0.714,2,1,yes,2022,n/a,0.0,0.0,n/a,Henderson Silver Knights,Savannah Ghost Pirates
+58,2021,NHL,SEA,SEA,Seattle Kraken,47.622,-122.354,Western,2,0.498,1,0.5,0,0,yes,2022,n/a,0.0,0.0,n/a,Coachella Valley Firebirds,Kansas City Mavericks
+59,1981,ECHL,UTA,n/a,Utah Grizzlies,40.70322,-111.94837,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Colorado Avalanche,Colorado Eagles,n/a
+60,1981,ECHL,WHL,n/a,Wheeling Nailers,40.06571,-80.72244,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Pittsburgh Penguins,Wilkes-Barre/Scranton Penguins,n/a
+61,1985,ECHL,FW,n/a,Fort Wayne Komets,41.1164,-85.1229,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Edmonton Oilers,Bakersfield Condors,n/a
+62,1987,ECHL,GVL,n/a,Greenville Swamp Rabbits,34.8531,-82.3897,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Los Angeles Kings,Ontario Reign,n/a
+63,1989,ECHL,MNE,n/a,Maine Mariners,43.65605,-70.25722,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Boston Bruins,Providence Bruins,n/a
+64,1990,ECHL,ADK,n/a,Adirondack Thunder,43.30845,-73.64484,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,New Jersey Devils,Utica Comets,n/a
+65,1991,ECHL,REA,n/a,Reading Royals,40.33569,-75.92166,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Philadelphia Flyers,Lehigh Valley Phantoms,n/a
+66,1991,ECHL,TOL,n/a,Toledo Walleye,41.65173,-83.53513,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Detroit Red Wings,Grand Rapids Griffins,n/a
+67,1992,ECHL,JAX,n/a,Jacksonville Icemen,30.32644,-81.64313,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Buffalo Sabres,Rochester Americans,n/a
+68,1992,ECHL,TUL,n/a,Tulsa Oilers,36.15333,-95.99509,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Anaheim Ducks,San Diego Gulls,n/a
+69,1992,ECHL,WIC,n/a,Wichita Thunder,37.68382,-97.33032,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,San Jose Sharks,San Jose Barracuda,n/a
+70,1993,ECHL,SC,n/a,South Carolina Stringrays,32.86607,-80.02074,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Washington Capitals,Hershey Bears,n/a
+71,1995,ECHL,ATL,n/a,Atlanta Gladiators,33.99223,-84.09226,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Nashville Predators,Milwaukee Admirals,n/a
+72,1995,ECHL,CIN,n/a,Cincinnati Cyclones,39.09856,-84.5027,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,New York Rangers,Hartford Wolf Pack,n/a
+73,1995,ECHL,NOR,n/a,Norfolk Admirals,36.85341,-76.28603,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Winnipeg Jets,Manitoba Moose,n/a
+74,1997,ECHL,IDH,n/a,Idaho Steelheads,43.61517,-116.20181,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Dallas Stars,Texas Stars,n/a
+75,1998,ECHL,FLA,n/a,Florida Everblades,26.44132,-81.77703,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Florida Panthers,Charlotte Checkers,n/a
+76,1999,ECHL,KAL,n/a,Kalamazoo Wings,42.25441,-85.53373,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Vancouver Canucks,Abbotsford Canucks,n/a
+77,2008,ECHL,RC,n/a,Rapid City Rush,44.08878,-103.22367,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Calgary Flames,Calgary Wranglers,n/a
+78,2009,ECHL,ALN,n/a,Allen Americans,33.12798,-96.65326,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Ottawa Senators,Belleville Senators,n/a
+79,2009,ECHL,KC,n/a,Kansas City Mavericks,39.04064,-94.35602,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Seattle Kraken,Coachella Valley Firebirds,n/a
+80,2012,ECHL,ORL,n/a,Orlando Solar Bears,28.53933,-81.38336,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Tampa Bay Lightning,Syracuse Crunch,n/a
+81,2014,ECHL,IND,n/a,Indy Fuel,39.82823,-86.13362,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Chicago Blackhawks,Rockford IceHogs,n/a
+82,2017,ECHL,WOR,n/a,Worcester Railers,42.26499,-71.79662,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,New York Islanders,Bridgeport Islanders,n/a
+83,2018,ECHL,NFL,n/a,Newfoundland Growlers,47.56098,-52.71195,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Toronto Maple Leafs,Toronto Marlies,n/a
+84,2021,ECHL,IA,n/a,Iowa Heartlanders,41.68193,-91.56098,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Minnesota Wild,Iowa Wild,n/a
+85,2021,ECHL,TR,n/a,Trois-Rivieres Lions,46.32235,-72.58967,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Montreal Canadiens,Laval Rocket,n/a
+86,2022,ECHL,SAV,n/a,Savannah Ghost Pirates,32.07467,-81.11031,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Vegas Golden Knights,Henderson Silver Knights,n/a
+87,1926,AHL,HFD,n/a,Hartford Wolf Pack,41.76863,-72.67655,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,New York Rangers,n/a,Cincinnati Cyclones
+88,1932,AHL,ABB,n/a,Abbotsford Canucks,49.03113,-122.28491,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Vancouver Canucks,n/a,Kalamazoo Wings
+89,1938,AHL,HER,n/a,Hershey Bears,40.28688,-76.66762,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Washington Capitals,n/a,South Carolina Stringrays
+90,1956,AHL,ROC,n/a,Rochester Americans,43.15437,-77.6097,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Buffalo Sabres,n/a,Jacksonville Icemen
+91,1969,AHL,LAV,n/a,Laval Rocket,45.55674,-73.71958,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Montreal Canadiens,n/a,Trois-Rivieres Lions
+92,1970,AHL,MIL,n/a,Milwaukee Admirals,43.04273,-87.9157,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Nashville Predators,n/a,Atlanta Gladiators
+93,1971,AHL,HSK,n/a,Henderson Silver Knights,36.01984,-115.0797,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Vegas Golden Knights,n/a,Savannah Ghost Pirates
+94,1972,AHL,BEL,n/a,Belleville Senators,44.18874,-77.38199,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Ottawa Senators,n/a,Allen Americans
+95,1975,AHL,SPR,n/a,Springfield Thunderbirds,42.10258,-72.58535,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,St. Louis Blues,n/a,n/a
+96,1977,AHL,CGY,n/a,Calgary Wranglers,51.0375,-114.05194,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Calgary Flames,n/a,Rapid City Rush
+97,1978,AHL,TOR,n/a,Toronto Marlies,43.63661,-79.41343,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Toronto Maple Leafs,n/a,Newfoundland Growlers
+98,1981,AHL,WBS,n/a,Wilkes-Barre/Scranton Penguins,41.24069,-75.84632,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Pittsburgh Penguins,n/a,Wheeling Nailers
+99,1984,AHL,BAK,n/a,Bakersfield Condors,35.373,-119.0114,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Edmonton Oilers,n/a,Fort Wayne Komets
+100,1987,AHL,PRO,n/a,Providence Bruins,41.8242,-71.41626,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Boston Bruins,n/a,Maine Mariners
+101,1990,AHL,CLT,n/a,Charlotte Checkers,35.20527,-80.79408,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Florida Panthers,n/a,Florida Everblades
+102,1992,AHL,SYR,n/a,Syracuse Crunch,43.04536,-76.14681,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Tampa Bay Lightning,n/a,Orlando Solar Bears
+103,1994,AHL,CLE,n/a,Cleveland Monsters,41.49722,-81.68645,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Columbus Blue Jackets,n/a,n/a
+104,1994,AHL,IA,n/a,Iowa Wild,41.59327,-93.61954,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Minnesota Wild,n/a,Iowa Heartlanders
+105,1994,AHL,MB,n/a,Manitoba Moose,49.88624,-97.33211,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Winnipeg Jets,n/a,Norfolk Admirals
+106,1994,AHL,TUC,n/a,Tucson Roadrunners,32.21839,-110.97255,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Arizona Coyotes,n/a,n/a
+107,1995,AHL,RFD,n/a,Rockford IceHogs,42.27107,-89.09486,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Chicago Blackhawks,n/a,Indy Fuel
+108,1996,AHL,GR,n/a,Grand Rapids Griffins,42.96291,-85.67002,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Detroit Red Wings,n/a,Toledo Walleye
+109,1996,AHL,LV,n/a,Lehigh Valley Phantoms,40.60325,-75.47148,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Philadelphia Flyers,n/a,Reading Royals
+110,1996,AHL,SJ,n/a,San Jose Barracuda,37.33278,-121.90111,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,San Jose Sharks,n/a,Wichita Thunder
+111,1998,AHL,UTC,n/a,Utica Comets,43.10499,-75.23192,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,New Jersey Devils,n/a,Adirondack Thunder
+112,1999,AHL,TEX,n/a,Texas Stars,30.54215,-97.81822,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Dallas Stars,n/a,Idaho Steelheads
+113,2000,AHL,SD,n/a,San Diego Gulls,32.75601,-117.20924,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Anaheim Ducks,n/a,Tulsa Oilers
+114,2001,AHL,BRI,n/a,Bridgeport Islanders,41.17379,-73.18548,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,New York Islanders,n/a,Worcester Railers
+115,2001,AHL,ONT,n/a,Ontario Reign,34.07347,-117.56458,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Los Angeles Kings,n/a,Greenville Swamp Rabbits
+116,2018,AHL,COL,n/a,Colorado Eagles,40.44471,-104.98831,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Colorado Avalanche,n/a,Utah Grizzlies
+117,2022,AHL,CV,n/a,Coachella Valley Firebirds,33.77988,-116.3394,n/a,0,0.0,0,0.0,0,0,n/a,0,n/a,0.0,0.0,Seattle Kraken,n/a,Kansas City Mavericks
