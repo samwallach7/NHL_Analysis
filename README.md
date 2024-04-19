@@ -70,6 +70,8 @@ The distribution of team results tightens between the 1970’s to 2011, which we
 
 ![Fig2](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a6ce75c9-e2e4-421e-8075-e1ceb5c56820)
 
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/a6ce75c9-e2e4-421e-8075-e1ceb5c56820" width="100" height="100">
+
 This is also evident when looking at the results by variance, median and quartile.
 
 ![Fig14](https://github.com/samwallach7/NHL_Analysis/assets/148116220/e42e15fd-e8c5-4e73-b698-f3e730c7ef24)![Fig13](https://github.com/samwallach7/NHL_Analysis/assets/148116220/1cf290e0-aadf-4737-a034-e269b1eef4be)
