@@ -99,8 +99,6 @@ There has been a consistent rise in attributes such as height and weight. While 
 #### How has NHL fan attendance evolved over time?
 Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled. While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend.
 
-![attendance](https://github.com/samwallach7/NHL_Analysis/assets/148116220/50897b3e-a24f-4971-ae3a-19cfc00edb32)
-
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/50897b3e-a24f-4971-ae3a-19cfc00edb32" width="700" height="700">
 
 The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
@@ -110,6 +108,8 @@ The three sharp spikes in the attendance data can be attributed to certain exter
 In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
 
 ![NHLDRAFTCOUNT](https://github.com/samwallach7/NHL_Analysis/assets/148116220/f2ecae95-4b1f-4d7c-b25a-3d37e80e4142)
+
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/f2ecae95-4b1f-4d7c-b25a-3d37e80e4142" width="700" height="700">
 
 Our analysis was robust and multi-dimensional. Utilizing the Pandas library, we cleaned and transformed the team data to prepare it for in-depth examination. For visual exploration and to present our findings in an intuitive format, we incorporated Matplotlib. This combination not only facilitated a deeper understanding of the data but also enabled us to uncover patterns and trends that were not immediately apparent. Through this comprehensive analysis, we were able to draw meaningful conclusions about team performances and their correlations with player statistics.
 
