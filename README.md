@@ -70,8 +70,6 @@ The distribution of team results tightens between the 1970’s to 2011, which we
 
 ![Fig2](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a6ce75c9-e2e4-421e-8075-e1ceb5c56820)
 
-<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/a6ce75c9-e2e4-421e-8075-e1ceb5c56820" width="750" height="750">
-
 This is also evident when looking at the results by variance, median and quartile.
 
 ![Fig14](https://github.com/samwallach7/NHL_Analysis/assets/148116220/e42e15fd-e8c5-4e73-b698-f3e730c7ef24)![Fig13](https://github.com/samwallach7/NHL_Analysis/assets/148116220/1cf290e0-aadf-4737-a034-e269b1eef4be)
@@ -91,14 +89,13 @@ The average goals scored (by player) and the average goals allowed (by goalie) d
 
 ![subplot](https://github.com/samwallach7/NHL_Analysis/assets/148116220/317db7dd-a0a7-47a9-8599-4f89db1f26e2)
 
-<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/317db7dd-a0a7-47a9-8599-4f89db1f26e2" width="700" height="700">
-
 ### Player Measurables
 #### How have player measurables evolved over time?
 There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
 
 ![measurables](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a399bd45-bec8-44ba-8126-76099f0b5322)
 
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/a399bd45-bec8-44ba-8126-76099f0b5322" width="700" height="700">
 
 ### NHL Attendance
 #### How has NHL fan attendance evolved over time?
