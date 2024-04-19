@@ -1,0 +1,22 @@
+/* Remove the default margin and padding from the body. */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set map, body, and html to 100% of the screen size. */
+#map,
+body,
+html {
+  height: 100%;
+}
+.highlighted-marker {
+  border: 3px solid yellow; /* Change border to yellow to highlight the marker */
+}
+.dimmed-marker {
+  opacity: 0.5; /* Reduce opacity to dim the marker */
+}
+
+h1 {
+  text-align: center;
+}
