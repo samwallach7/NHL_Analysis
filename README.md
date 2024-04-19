@@ -93,8 +93,6 @@ The average goals scored (by player) and the average goals allowed (by goalie) d
 #### How have player measurables evolved over time?
 There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
 
-![measurables](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a399bd45-bec8-44ba-8126-76099f0b5322)
-
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/a399bd45-bec8-44ba-8126-76099f0b5322" width="700" height="700">
 
 ### NHL Attendance
@@ -102,6 +100,8 @@ There has been a consistent rise in attributes such as height and weight. While 
 Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled. While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend.
 
 ![attendance](https://github.com/samwallach7/NHL_Analysis/assets/148116220/50897b3e-a24f-4971-ae3a-19cfc00edb32)
+
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/50897b3e-a24f-4971-ae3a-19cfc00edb32" width="700" height="700">
 
 The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
 
