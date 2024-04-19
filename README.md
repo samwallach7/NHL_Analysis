@@ -93,7 +93,7 @@ The average goals scored (by player) and the average goals allowed (by goalie) d
 #### How have player measurables evolved over time?
 There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
 
-<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/a399bd45-bec8-44ba-8126-76099f0b5322" width="700" height="700">
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/a399bd45-bec8-44ba-8126-76099f0b5322" width="700" height="600">
 
 ### NHL Attendance
 #### How has NHL fan attendance evolved over time?
@@ -106,8 +106,6 @@ The three sharp spikes in the attendance data can be attributed to certain exter
 ### NHL Draft
 #### How has the search for professional talent evolved over the years?
 In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
-
-![NHLDRAFTCOUNT](https://github.com/samwallach7/NHL_Analysis/assets/148116220/f2ecae95-4b1f-4d7c-b25a-3d37e80e4142)
 
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/f2ecae95-4b1f-4d7c-b25a-3d37e80e4142" width="700" height="500">
 
