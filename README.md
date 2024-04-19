@@ -10,7 +10,7 @@
   - [Data Retrieval](#data-retrieval)
   - [Database Design](#database-design)
   - [Preprocessing of Data](#preprocessing-of-data)
-- [Analysis](#analysis)
+- [Visualizations & Analysis](#visualizations-&-analysis)
 - [Machine Learning](#machine-learning)
   - [Models Used for Prediction](#models-used-for-prediction)
 - [Visualization](#visualization)
@@ -60,7 +60,56 @@ In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to loa
 Our database was designed to accommodate the specifics of the NHL data we were working with. Each dataset was given its own table, structured with carefully selected data types for each column to optimize storage and retrieval. To ensure unique identification of each entity, we implemented composite primary keys for both team and player records. This approach not only enhanced data integrity but also facilitated complex queries involving multiple tables.
 ### Preprocessing of Data
 The preprocessing stage began with the teams dataset. Here, team_id was employed as the primary key, establishing a unique and consistent identifier across the database. The team_name served as another distinctive element, reinforcing the identification process. For relational integrity and to underscore the connections between teams and players, team_id was also used as a foreign key in the players dataset. This setup was crucial for linking team performances directly to their respective players, allowing for more nuanced analysis and insights.
-## Analysis Phase
+
+## Visualizations & Analysis
+<img src="image_files/pagePreview.mov" width=100% height=300px margin="auto" >
+
+### Team Performance
+#### Has team performance changed over time?
+The distribution of team results tightens between the 1970’s to 2011, which we believe shows that the league’s competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary cap restrictions, draft structure and an increase in player quality and development helped to achieve these results. In general, a more balanced league provides greater entertainment value, as more teams have realistic chances of qualifying for the playoffs.
+
+![Fig2](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a6ce75c9-e2e4-421e-8075-e1ceb5c56820)
+
+This is also evident when looking at the results by variance, median and quartile.
+
+![Fig14](https://github.com/samwallach7/NHL_Analysis/assets/148116220/e42e15fd-e8c5-4e73-b698-f3e730c7ef24)![Fig13](https://github.com/samwallach7/NHL_Analysis/assets/148116220/1cf290e0-aadf-4737-a034-e269b1eef4be)
+
+![Fig3](https://github.com/samwallach7/NHL_Analysis/assets/148116220/13429a30-25ad-468c-b641-906d72b5410e)
+
+#### Has goal scoring evolved over time?
+A steady increase in goals scored per game was observed from the 1950’s to the 1980’s. Subsequently, a decrease in goals per game is observed over the following 15 years (1980’s to 2000). 
+
+![Fig6](https://github.com/samwallach7/NHL_Analysis/assets/148116220/dec6e119-d192-4ccf-a1aa-7158217ac5f7)
+
+We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
+
+### Player Statictics
+#### How have individual player statistics evolved over time?
+The average goals scored (by player) and the average goals allowed (by goalie) decreased between the 1980’s to 2011. This matches up with the team-specific data above, where there was a noted decrease in goal scoring. Meanwhile, the average shots allowed increased and the average shots on goal fluctuated but remained about the same from the 1980’s to 2011. With more total shots but the same amount of shots on goal, that is a clear sign in defensive improvement of teams limiting the “quality” of shots that opponents take.
+
+![subplot](https://github.com/samwallach7/NHL_Analysis/assets/148116220/317db7dd-a0a7-47a9-8599-4f89db1f26e2)
+
+### Player Measurables
+#### How have player measurables evolved over time?
+There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
+
+![measurables](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a399bd45-bec8-44ba-8126-76099f0b5322)
+
+
+### NHL Attendance
+#### How has NHL fan attendance evolved over time?
+Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled. While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend.
+
+![attendance](https://github.com/samwallach7/NHL_Analysis/assets/148116220/50897b3e-a24f-4971-ae3a-19cfc00edb32)
+
+The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
+
+### NHL Draft
+#### How has the search for professional talent evolved over the years?
+In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
+
+![NHLDRAFTCOUNT](https://github.com/samwallach7/NHL_Analysis/assets/148116220/f2ecae95-4b1f-4d7c-b25a-3d37e80e4142)
+
 Our analysis was robust and multi-dimensional. Utilizing the Pandas library, we cleaned and transformed the team data to prepare it for in-depth examination. For visual exploration and to present our findings in an intuitive format, we incorporated Matplotlib. This combination not only facilitated a deeper understanding of the data but also enabled us to uncover patterns and trends that were not immediately apparent. Through this comprehensive analysis, we were able to draw meaningful conclusions about team performances and their correlations with player statistics.
 
 ## Machine Learning
@@ -121,56 +170,6 @@ The Classification Report for the model:
   - Similarly, the model performs well in predicting assists, with an R² value of 0.967, indicating that 96.7% of the variance in assists is explained by the model. The MSE for assists is also relatively low, suggesting accurate predictions.
 
 - Overall, the model demonstrates strong predictive capabilities for player performance metrics, but further validation and consideration of recent trends and factors are advised when using the model for predictions in the present day.
-
-## Visualization
-<img src="image_files/pagePreview.mov" width=100% height=300px margin="auto" >
-
-
-### Team Performance
-#### Has team performance changed over time?
-The distribution of team results tightens between the 1970’s to 2011, which we believe shows that the league’s competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary cap restrictions, draft structure and an increase in player quality and development helped to achieve these results. In general, a more balanced league provides greater entertainment value, as more teams have realistic chances of qualifying for the playoffs.
-
-![Fig2](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a6ce75c9-e2e4-421e-8075-e1ceb5c56820)
-
-This is also evident when looking at the results by variance, median and quartile.
-
-![Fig14](https://github.com/samwallach7/NHL_Analysis/assets/148116220/e42e15fd-e8c5-4e73-b698-f3e730c7ef24)![Fig13](https://github.com/samwallach7/NHL_Analysis/assets/148116220/1cf290e0-aadf-4737-a034-e269b1eef4be)
-
-![Fig3](https://github.com/samwallach7/NHL_Analysis/assets/148116220/13429a30-25ad-468c-b641-906d72b5410e)
-
-#### Has goal scoring evolved over time?
-A steady increase in goals scored per game was observed from the 1950’s to the 1980’s. Subsequently, a decrease in goals per game is observed over the following 15 years (1980’s to 2000). 
-
-![Fig6](https://github.com/samwallach7/NHL_Analysis/assets/148116220/dec6e119-d192-4ccf-a1aa-7158217ac5f7)
-
-We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
-
-### Player Statictics
-#### How have individual player statistics evolved over time?
-The average goals scored (by player) and the average goals allowed (by goalie) decreased between the 1980’s to 2011. This matches up with the team-specific data above, where there was a noted decrease in goal scoring. Meanwhile, the average shots allowed increased and the average shots on goal fluctuated but remained about the same from the 1980’s to 2011. With more total shots but the same amount of shots on goal, that is a clear sign in defensive improvement of teams limiting the “quality” of shots that opponents take.
-
-![subplot](https://github.com/samwallach7/NHL_Analysis/assets/148116220/317db7dd-a0a7-47a9-8599-4f89db1f26e2)
-
-### Player Measurables
-#### How have player measurables evolved over time?
-There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
-
-![measurables](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a399bd45-bec8-44ba-8126-76099f0b5322)
-
-
-### NHL Attendance
-#### How has NHL fan attendance evolved over time?
-Game attendance has consistently risen since the inception of the league. Specifically within the last 40 years, the in-person popularity has doubled. While some of this increase can be attributed to additional teams in the league and larger arenas, an increase of this caliber is clearly a trend.
-
-![attendance](https://github.com/samwallach7/NHL_Analysis/assets/148116220/50897b3e-a24f-4971-ae3a-19cfc00edb32)
-
-The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
-
-### NHL Draft
-#### How has the search for professional talent evolved over the years?
-In the early years of the National Hockey League, the majority of the professional players were Canadian. Since the 1960’s however, there has been a notable surge in diversity, mainly from the United States, Russia and European countries.
-
-![NHLDRAFTCOUNT](https://github.com/samwallach7/NHL_Analysis/assets/148116220/f2ecae95-4b1f-4d7c-b25a-3d37e80e4142)
 
 ## Communication Protocols
 We communicated and developed our project over virtual meetings through Zoom and Google Meet, chat through Slack, and repository branch commits through GitHub.
