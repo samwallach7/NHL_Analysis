@@ -91,6 +91,8 @@ The average goals scored (by player) and the average goals allowed (by goalie) d
 
 ![subplot](https://github.com/samwallach7/NHL_Analysis/assets/148116220/317db7dd-a0a7-47a9-8599-4f89db1f26e2)
 
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/317db7dd-a0a7-47a9-8599-4f89db1f26e2" width="600" height="600">
+
 ### Player Measurables
 #### How have player measurables evolved over time?
 There has been a consistent rise in attributes such as height and weight. While this should be considered along with a general trend among the human population, this also provides evidence of the league’s emphasis on acquiring larger, stronger, faster and more athletic players.
