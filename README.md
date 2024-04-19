@@ -123,7 +123,7 @@ The Classification Report for the model:
 - Overall, the model demonstrates strong predictive capabilities for player performance metrics, but further validation and consideration of recent trends and factors are advised when using the model for predictions in the present day.
 
 ## Visualization
-<img src="image_files/webpage_preview.gif" width=100% height=300px margin="auto" >
+<img src="image_files/pagePreview.mov" width=100% height=300px margin="auto" >
 
 
 ### Team Performance
