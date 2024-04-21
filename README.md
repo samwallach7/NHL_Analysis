@@ -11,7 +11,9 @@
   - [Preprocessing of Data](#preprocessing-of-data)
 - [Visualizations and Analysis](#visualizations-and-analysis)
 - [Machine Learning](#machine-learning)
-  - [Models Used for Prediction](#models-used-for-prediction)
+  - [KMeans Clustering](#kmeans-clustering)
+  - [Logistic Regression](#logistic-regression)
+  - [Linear Regression](#linear-regression)
 - [Visualization](#visualization)
 - [Communication](#communication)
 - [Technologies](#technologies)
@@ -111,8 +113,7 @@ In the early years of the National Hockey League, the majority of the profession
 Our analysis was robust and multi-dimensional. Utilizing the Pandas library, we cleaned and transformed the team data to prepare it for in-depth examination. For visual exploration and to present our findings in an intuitive format, we incorporated Matplotlib. This combination not only facilitated a deeper understanding of the data but also enabled us to uncover patterns and trends that were not immediately apparent. Through this comprehensive analysis, we were able to draw meaningful conclusions about team performances and their correlations with player statistics.
 
 ## Machine Learning
-### Models used for Prediction
-#### KMeans Clustering
+### KMeans Clustering
 The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created with the Points earned per game as the y value in the plot, (1) using the Goals For per game, (2) using the Goals Against per game and (3) using the Goal Spread (Goals For per game - Goals Against per game). The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal output characteristics.
 
 Using Goals For:
@@ -139,7 +140,7 @@ Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
 
 Using a goal spread of 0 as a threshold, you can see that there are more negative goal spread teams that made the playoffs than positive spread teams that did not make the playoffs. All of these models can be slightly skewed by some lopsided results of the course of a season, such as a 7-1 win or loss, and the Goal Spread plotting is the most vulnerable to this. Regardless, a positive Goal Spread is a strong playoff indicator, and a Goal Spread of about 0.3 essentially guarantees playoff participation.
 
-#### Logistic Regression
+### Logistic Regression
 The team performance dataset was also utilized to construct a logistic regression to predict playoff qualification. After testing different combinations of data, the model we chose to utilize had a target value of “made_playoff” (a Bernoulli value of whether the team made the playoffs or not) and features values of goals for per game, goals allowed per game, power play goal efficiency (percent of the time a team scored when on a power play) and penalty kill efficiency (percent of the time a team did not allow a goal when short-handed).
 
 We conducted a train_test_split, fit the model with the training data, and predicted the Bernoulli outputs for making the playoffs. We arrived at a model with 90% overall accuracy and for the predictions of making the playoffs, a 0.89 precision and a 0.97 recall.
@@ -153,7 +154,7 @@ The Classification Report for the model:
 <img width="500" alt="Screenshot 2024-04-11 at 9 39 15 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/a0e85bdb-257e-41cb-85f8-85c87bac9256">
 
 
-#### Linear Regression
+### Linear Regression
 - Points Prediction:
   - Mean Squared Error (MSE): 1404.51
   - R-squared (R²): 0.972
