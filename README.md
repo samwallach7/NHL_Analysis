@@ -14,9 +14,9 @@
   - [KMeans Clustering](#kmeans-clustering)
   - [Logistic Regression](#logistic-regression)
   - [Linear Regression](#linear-regression)
-- [Visualization](#visualization)
-- [Communication](#communication)
+- [Communication Protocols](#communication-protocols)
 - [Technologies](#technologies)
+- [Team Members](#team-members)
 - [Resources](#resources)
 
 ## Background
@@ -219,7 +219,7 @@ Here's a list of technologies used in the project:
    - Pathlib
    - Random module
 
-## Members
+## Team Members
 
 [<img src="https://github.com/samwallach7.png" width="50" height="50"> Sam Wallach](https://github.com/samwallach7)
 
