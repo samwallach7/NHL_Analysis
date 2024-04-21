@@ -61,7 +61,7 @@ In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to loa
 Our database was designed to accommodate the specifics of the NHL data we were working with. Each dataset was given its own table, structured with carefully selected data types for each column to optimize storage and retrieval. To ensure unique identification of each entity, we implemented composite primary keys for both team and player records. This approach not only enhanced data integrity but also facilitated complex queries involving multiple tables.
 ### Preprocessing of Data
 The preprocessing stage began with the teams dataset. Here, team_id was employed as the primary key, establishing a unique and consistent identifier across the database. The team_name served as another distinctive element, reinforcing the identification process. For relational integrity and to underscore the connections between teams and players, team_id was also used as a foreign key in the players dataset. This setup was crucial for linking team performances directly to their respective players, allowing for more nuanced analysis and insights.
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/CWtnfUb" data-context="false" ><a href="//imgur.com/a/CWtnfUb"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 ## Visualizations and Analysis
 
 ### Team Performance
