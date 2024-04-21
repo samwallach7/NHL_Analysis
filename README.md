@@ -26,7 +26,7 @@ In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, a
 
 We set out to analyze the progression of the National Hockey League (NHL) over the last 100 years through team performance, player statistics and fan engagement data. The project was broken up into three distinct sections throughout the Data Analysis & Visualization program, with each utilizing the different skills that we acquired during the cohort. 
 
-### Sections & Approach
+### Sections and Approach
 #### Section I (Python)
 We started with determining a topic for the project and finding relevant datasets to utilize. We found a folder of hockey-related data on Kaggle that featured files on team performance, player performance, coaches, awards and more. We utilized Python to clean, manipulate and visualize the data and then develop conclusions based on these inital findings.
 
@@ -61,7 +61,7 @@ Our database was designed to accommodate the specifics of the NHL data we were w
 ### Preprocessing of Data
 The preprocessing stage began with the teams dataset. Here, team_id was employed as the primary key, establishing a unique and consistent identifier across the database. The team_name served as another distinctive element, reinforcing the identification process. For relational integrity and to underscore the connections between teams and players, team_id was also used as a foreign key in the players dataset. This setup was crucial for linking team performances directly to their respective players, allowing for more nuanced analysis and insights.
 
-## Visualizations & Analysis
+## Visualizations and Analysis
 <img src="image_files/pagePreview.mov" width=100% height=300px margin="auto" >
 
 ### Team Performance
