@@ -63,7 +63,6 @@ Our database was designed to accommodate the specifics of the NHL data we were w
 The preprocessing stage began with the teams dataset. Here, team_id was employed as the primary key, establishing a unique and consistent identifier across the database. The team_name served as another distinctive element, reinforcing the identification process. For relational integrity and to underscore the connections between teams and players, team_id was also used as a foreign key in the players dataset. This setup was crucial for linking team performances directly to their respective players, allowing for more nuanced analysis and insights.
 
 ## Visualizations and Analysis
-<img src="image_files/pagePreview.mov" width=100% height=300px margin="auto" >
 
 ### Team Performance
 #### Has team performance changed over time?
