@@ -5,7 +5,6 @@
 - [Project Overview](#project-overview)
   - [Sections and Approach](#sections-and-approach)
   - [Questions We Hope to Answer with Data](#questions-we-hope-to-answer-with-data)
-  - [Approach](#approach)
 - [Data Exploration](#data-exploration)
   - [Data Retrieval](#data-retrieval)
   - [Database Design](#database-design)
