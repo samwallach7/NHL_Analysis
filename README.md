@@ -121,11 +121,15 @@ Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
 
 <img width="698" alt="Screenshot 2024-04-15 at 8 54 02 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/5c765727-1b57-4183-aa07-e6d7a1a1b8b3">
 
+This model shows a threshold of about 3.5 goals per game significantly increasing the odds of a team making the playoffs and 4 goals per game all but assuring playoff qualification. Naturally, other factors besides goals scored can impact a playoff outcome. A high-scoring but defensively-decificent team might in the end give up more goals on average than they score, which costs them wins and valuable points. While that data isn’t built into this model, perhaps that is the case for the cluster 3 teams above the 3.5 goals per game mark.
+
 Using Goals Against:
 
 Clusters 0 and 3 made the playoffs while clusters 1 and 2 did not.
 
 <img width="699" alt="Screenshot 2024-04-15 at 8 55 02 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/b6df39bc-9381-42c6-9ee6-37dd0dffd95d">
+
+In this model, there seems to be more overlap on the lower end (less goals allowed per game) between teams that made the playoffs and teams that did not. Obviously the main aim of the game is to score goals, so teams that are strong defensively but are lacking offensively will struggle to win games, earn points and make the playoffs.
 
 Using the spread between goals for and goals against (per game):
 
@@ -133,9 +137,7 @@ Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
 
 <img width="699" alt="Screenshot 2024-04-15 at 8 51 48 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/1679ced6-8ea7-401e-a1da-4dfa914f29b4">
 
-On the Goal Spread plot, note that there are some teams with a negative goal spread that made the playoffs and conversely teams with a positive goal spread that did not make the playoffs. Of these cases, there seem to be more instances of the former than the latter.
-
-This data also shows that a statistical threshold for guaranteeing qualification for the playoffs is a Goal Spread value of at least 0.3.
+Using a goal spread of 0 as a threshold, you can see that there are more negative goal spread teams that made the playoffs than positive spread teams that did not make the playoffs. All of these models can be slightly skewed by some lopsided results of the course of a season, such as a 7-1 win or loss, and the Goal Spread plotting is the most vulnerable to this. Regardless, a positive Goal Spread is a strong playoff indicator, and a Goal Spread of about 0.3 essentially guarantees playoff participation.
 
 #### Logistic Regression
 The team performance dataset was also utilized to construct a logistic regression to predict playoff qualification. After testing different combinations of data, the model we chose to utilize had a target value of “made_playoff” (a Bernoulli value of whether the team made the playoffs or not) and features values of goals for per game, goals allowed per game, power play goal efficiency (percent of the time a team scored when on a power play) and penalty kill efficiency (percent of the time a team did not allow a goal when short-handed).
