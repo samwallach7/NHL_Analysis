@@ -113,6 +113,23 @@ In the early years of the National Hockey League, the majority of the profession
 
 Our analysis was robust and multi-dimensional. Utilizing the Pandas library, we cleaned and transformed the team data to prepare it for in-depth examination. For visual exploration and to present our findings in an intuitive format, we incorporated Matplotlib. This combination not only facilitated a deeper understanding of the data but also enabled us to uncover patterns and trends that were not immediately apparent. Through this comprehensive analysis, we were able to draw meaningful conclusions about team performances and their correlations with player statistics.
 
+### Player Selector Tool
+Select a player from the list and the most recent season's stats are returned
+
+
+
+### NHL Team Mapping
+View all of the NHL teams, past and present, on a Leaflet map. Select one of the layers to view data filtered by certain parameters.
+
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/41f27b3f-a38d-42fd-9bfb-247d33c2ad1b" width="700" height="500">
+
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/af3ac8b8-6e7f-4ba1-b885-f24c39b819eb" width="700" height="500">
+
+
+### NHL Draft Breakdown
+View the nationality breakdown from a given NHL Draft year.
+
+
 ## Machine Learning
 ### KMeans Clustering
 The team performance dataset was condensed to build a KMeans model that predicted a team’s qualification for the playoffs. Multiple variations were created with the Points earned per game as the y value in the plot, (1) using the Goals For per game, (2) using the Goals Against per game and (3) using the Goal Spread (Goals For per game - Goals Against per game). The elbow method lead us to utilize 4 clusters for each of these models. Of these clusters, there were 2 clusters each that displayed teams that missed the playoffs and teams that made the playoffs. The clusters joined datapoints with similar point per game and goal output characteristics.
