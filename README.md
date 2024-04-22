@@ -21,7 +21,8 @@
 
 ## Background
 Hockey is one of the most popular sports in North America. The National Hockey League (NHL) was founded in 1917 and has experienced significant growth and transformation over the years. As a professional league develops, teams improve every facet of their organizations, from arenas and fan engagement to coaching, player acquisition and development. There is also an improvement over time in the players themselves. Professional athletes in general have become bigger, faster, stronger and more specialized as compared to their predecessors.
-In each NHL game, teams earn 2 points for a win, 1 point for an overtime loss, and 0 points for a regulation loss. These points are kept over the course of a season and used for the league standings and to determine the playoff teams and seeds at the end of the season.
+
+NHL teams play 82 games during a regular season, and the league uses a points-based system for their team standings. Based on the outcome of each game, teams earn 2 points for a win, 1 point for an overtime loss, and 0 points for a regulation loss. The point standings determine the eight playoff teams and the seedings for each conference at the end of the season.
 
 ## Project Overview
 
@@ -32,24 +33,25 @@ We set out to analyze the progression of the National Hockey League (NHL) over t
 We started with determining a topic for the project and finding relevant datasets to utilize. We found a folder of hockey-related data on Kaggle that featured files on team performance, player performance, coaches, awards and more. We utilized Python to clean, manipulate and visualize the data and then develop conclusions based on these inital findings.
 
 #### Section II (JavaScript, HTML, Leaflet)
-We developed a webpage with multiple tabs that utilized JavaScript, HTML and CSS formatting. The first page featured a player selector tool that allows a user to choose a player from a list and see their stats for the most recent season. The second page featured a Leaflet map of each NHL team and their minor league affiliates (locations were marked on the map with their team logos), and map layers to sort out certain performance metrics (playoff percentage, Stanley Cup titles, etc.). The final page featured a selector tool realted to the NHL draft where the user can select a year from the list and see the nationality breakdown from that draft.
+We developed a webpage with multiple tabs that utilized JavaScript, HTML and CSS formatting. The first page featured a player selector tool that allowed a user to choose a player from a list and see their stats for the most recent season. The second page featured a Leaflet map of each NHL team's location and map layers to sort by certain performance metrics (playoff percentage, Stanley Cup titles, etc.). The final page featured a selector tool related to the NHL draft where the user can select a year from the list and see the nationality breakdown from that draft.
 
 #### Section III (Machine Learning)
-We developed mutiple machine learning models based on the NHL data. The first item was a KMeans model that would build clusters based on team metrics and predict playoff participation. We built plots to highlight Goals For vs. Points, Goals Against vs. Points, and Goal Spread vs. Points. The second item was a Logistic Regression for playoff participation that we tried to optimize the accuracy on by utilizing team goal, penalty and efficiency metrics. Finally, we built a Linear Regression to predict player perfomance for an upcoming season based on historical data.
+We developed multiple machine learning models based on the NHL data. The first was a KMeans model that would build clusters based on team metrics and predict playoff participation. We built plots to highlight Goals For vs. Points, Goals Against vs. Points, and Goal Spread vs. Points. The second item was a Logistic Regression for playoff participation that we tried to optimize the accuracy on by utilizing team goal, penalty and efficiency metrics. Finally, we built a Linear Regression to predict player perfomance for an upcoming season based on historical data.
 
-[Click to view a sample of our webpage](https://imgur.com/a/CWtnfUb)
+[Click to view a sample of our webpage for all three sections](https://imgur.com/a/CWtnfUb)
 
 ### Questions We Hope to Answer with Data:
 
 - On a per game basis, did noticeable shifts occur over time in relation to team performance? How can these fluctuations be explained when considering the evolution of offensive and defensive philosophies?
-- Most professional sports leagues have developed a goal of achieving a competitive balance (evidenced by the introduction of salary caps, player drafts, among others…). This in theory improves the product league-wide and gives teams a better chance to win any given game. Is this competitive balance exhibited when assessing a team’s point output in a given season?
+- Most professional sports leagues have developed a goal of achieving a competitive balance (evidenced by the introduction of salary caps, player drafts, etc.). This in theory improves the product league-wide and gives teams a better chance to win any given game. Is this competitive balance exhibited when assessing a team’s point output in a given season?
 - How did the league evolve over time in reagrds to talent acquisiton?
 - Did generational players have an impact on the team and average player statistics?
+- What were the most consequantial team performance metrics in predicting a team's playoff qualification?
 
 ## Data Exploration
 
 ### Data Retrieval
-Our ETL (Extract, Transform, Load) workflow was designed to consolidate diverse data sources into a unified format. This process is crucial for ensuring data consistency and reliability. Let's walk through each phase:
+Our ETL (Extract, Transform, Load) workflow was designed to consolidate diverse data sources into a unified format. This process was crucial for ensuring data consistency and reliability. Let's walk through each phase:
 #### Extract Phase
 In the extract phase, we focused on retrieving data from the sportsIO API database. We developed Python scripts to handle API requests, manage rate limits, and ensure data consistency. This phase laid the foundation for our data integration process.
 #### Transform Phase
@@ -68,7 +70,7 @@ The preprocessing stage began with the teams dataset. Here, team_id was employed
 
 ### Team Performance
 #### Has team performance changed over time?
-The distribution of team results tightens between the 1970’s to 2011, which we believe shows that the league’s competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary cap restrictions, draft structure and an increase in player quality and development helped to achieve these results. In general, a more balanced league provides greater entertainment value, as more teams have realistic chances of qualifying for the playoffs.
+The distribution of team results condenses between the 1970’s to 2011, which we believe shows that the league’s competitive balance improved despite adding roughly 15 franchises over that time. Implementations such as salary cap restrictions, draft structure and an increase in player quality and development helped to achieve these results. In general, a more balanced league provides greater entertainment value, as more teams have realistic chances of qualifying for the playoffs.
 
 ![Fig2](https://github.com/samwallach7/NHL_Analysis/assets/148116220/a6ce75c9-e2e4-421e-8075-e1ceb5c56820)
 
