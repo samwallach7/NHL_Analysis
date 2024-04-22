@@ -36,7 +36,9 @@ We developed a webpage with multiple tabs that utilized JavaScript, HTML and CSS
 
 #### Section III (Machine Learning)
 We developed mutiple machine learning models based on the NHL data. The first item was a KMeans model that would build clusters based on team metrics and predict playoff participation. We built plots to highlight Goals For vs. Points, Goals Against vs. Points, and Goal Spread vs. Points. The second item was a Logistic Regression for playoff participation that we tried to optimize the accuracy on by utilizing team goal, penalty and efficiency metrics. Finally, we built a Linear Regression to predict player perfomance for an upcoming season based on historical data.
- 
+
+[Click to view a sample of our webpage](https://imgur.com/a/CWtnfUb)
+
 ### Questions We Hope to Answer with Data:
 
 - On a per game basis, did noticeable shifts occur over time in relation to team performance? How can these fluctuations be explained when considering the evolution of offensive and defensive philosophies?
@@ -61,10 +63,6 @@ In the load phase, we utilized psycopg2, a PostgreSQL adapter for Python, to loa
 Our database was designed to accommodate the specifics of the NHL data we were working with. Each dataset was given its own table, structured with carefully selected data types for each column to optimize storage and retrieval. To ensure unique identification of each entity, we implemented composite primary keys for both team and player records. This approach not only enhanced data integrity but also facilitated complex queries involving multiple tables.
 ### Preprocessing of Data
 The preprocessing stage began with the teams dataset. Here, team_id was employed as the primary key, establishing a unique and consistent identifier across the database. The team_name served as another distinctive element, reinforcing the identification process. For relational integrity and to underscore the connections between teams and players, team_id was also used as a foreign key in the players dataset. This setup was crucial for linking team performances directly to their respective players, allowing for more nuanced analysis and insights.
-
-[Link to Imgur Album](https://imgur.com/a/CWtnfUb)
-
-
 
 ## Visualizations and Analysis
 
