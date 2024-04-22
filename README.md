@@ -174,17 +174,17 @@ The Classification Report for the model:
 
 ### Linear Regression
 - Points Prediction:
-  - Mean Squared Error (MSE): 1404.51
+  - Mean Squared Error (MSE): .0302
   - R-squared (R²): 0.972
   - The model performs exceptionally well in predicting points, with a high R² value indicating that it explains 97.2% of the variance in points based on the features in the dataset. The relatively low MSE suggests that the model's predictions are close to the actual points scored by players.
 
 - Goals Prediction:
-  - Mean Squared Error (MSE): 359.67
+  - Mean Squared Error (MSE): .0462
   - R-squared (R²): 0.956
   - For goals prediction, the model also demonstrates strong performance, with an R² value of 0.956. This indicates that 95.6% of the variance in goals can be explained by the model. The MSE for goals is relatively low, indicating accurate predictions.
 
 - Assists Prediction:
-  - Mean Squared Error (MSE): 643.97
+  - Mean Squared Error (MSE): .0367
   - R-squared (R²): 0.967
   - Similarly, the model performs well in predicting assists, with an R² value of 0.967, indicating that 96.7% of the variance in assists is explained by the model. The MSE for assists is also relatively low, suggesting accurate predictions.
 
