@@ -85,7 +85,7 @@ A steady increase in goals scored per game was observed from the 1950’s to the
 
 ![Fig6](https://github.com/samwallach7/NHL_Analysis/assets/148116220/dec6e119-d192-4ccf-a1aa-7158217ac5f7)
 
-We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone)
+We believe this can be attributed to a variety of factors, including a renewed defensive emphasis (in coaching, player development, tactics, etc.) to counteract NHL offenses and also a major rule change related to offsides (preventing players from remaining in the offside zone).
 
 ### Player Statictics
 #### How have individual player statistics evolved over time?
@@ -105,7 +105,7 @@ Game attendance has consistently risen since the inception of the league. Specif
 
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/50897b3e-a24f-4971-ae3a-19cfc00edb32" width="700" height="500">
 
-The three sharp spikes in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the entire season. In 2020, the NHL season was cut short and the playoffs were eliminated due to the COVID-19 pandemic.
+The three sharp downturns in the attendance data can be attributed to certain external factors. In 1994 and 2012, the league experienced player lockouts, which limited or virtually eliminated the NHL season. In 2020, the NHL season was cut short and the playoffs were cancelled due to the COVID-19 pandemic.
 
 ### NHL Draft
 #### How has the search for professional talent evolved over the years?
@@ -121,7 +121,7 @@ We created a player selector tool to select a player from the list and the most 
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/66b879f6-141d-4211-9023-1dbbd7c4c7c8" width="800" height="500">
 
 ### NHL Team Mapping
-We created a Leaflet map to view all of the NHL teams, past and present. One of the layers can be selected to view data filtered by certain parameters.
+We created a Leaflet map to view all of the NHL teams, past and present. The layers can be selected to view data filtered by certain parameters.
 
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/41f27b3f-a38d-42fd-9bfb-247d33c2ad1b" width="600" height="500">
 
@@ -161,11 +161,11 @@ Clusters 0 and 2 made the playoffs while clusters 1 and 3 did not.
 Using a goal spread of 0 as a threshold, you can see that there are more negative goal spread teams that made the playoffs than positive spread teams that did not make the playoffs. All of these models can be slightly skewed by some lopsided results of the course of a season, such as a 7-1 win or loss, and the Goal Spread plotting is the most vulnerable to this. Regardless, a positive Goal Spread is a strong playoff indicator, and a Goal Spread of about 0.3 essentially guarantees playoff participation.
 
 ### Logistic Regression
-The team performance dataset was also utilized to construct a logistic regression to predict playoff qualification. After testing different combinations of data, the model we chose to utilize had a target value of “made_playoff” (a Bernoulli value of whether the team made the playoffs or not) and features values of goals for per game, goals allowed per game, power play goal efficiency (percent of the time a team scored when on a power play) and penalty kill efficiency (percent of the time a team did not allow a goal when short-handed).
+The team performance dataset was also utilized to construct a logistic regression to predict playoff qualification. After testing different combinations of data for optimization, the model we chose to utilize had a target value of “made_playoff” (a Bernoulli value of whether the team made the playoffs or not) and features values of goals for per game, goals allowed per game, power play goal efficiency (percent of the time a team scored when on a power play) and penalty kill efficiency (percent of the time a team did not allow a goal when short-handed).
 
-We conducted a train_test_split, fit the model with the training data, and predicted the Bernoulli outputs for making the playoffs. We arrived at a model with 90% overall accuracy and for the predictions of making the playoffs, a 0.89 precision and a 0.97 recall.
+We conducted a train_test_split, fit the model with the training data, and predicted the outputs for making the playoffs. We arrived at a model with 90% overall accuracy and for the predictions of making the playoffs, a 0.89 precision and a 0.97 recall.
 
-A sample of the datapoints used to build the model:
+A sample of the data used to build the model:
 
 <img width="359" alt="Screenshot 2024-04-11 at 9 39 34 PM" src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/f3d74b5f-a963-4927-834f-d8e173924c9f">
 
@@ -197,7 +197,7 @@ We communicated and developed our project over virtual meetings through Zoom and
 
 ## Technologies
 
-Here's a list of technologies used in the project:
+Below is a list of technologies used in the project:
 
 ### Python libraries
    - Matplotlib
@@ -207,9 +207,9 @@ Here's a list of technologies used in the project:
    - HvPlot
 
 ### Data manipulation
-  - JSON files
   - CSV files
-  - GeoJSON files
+  - JSON files
+  - JavaScript files
 
 ### API integration
    - API key management
