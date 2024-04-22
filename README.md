@@ -116,7 +116,7 @@ Our analysis was robust and multi-dimensional. Utilizing the Pandas library, we 
 ### Player Selector Tool
 Select a player from the list and the most recent season's stats are returned
 
-<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/66b879f6-141d-4211-9023-1dbbd7c4c7c8" width="700" height="500">
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/66b879f6-141d-4211-9023-1dbbd7c4c7c8" width="800" height="500">
 
 ### NHL Team Mapping
 View all of the NHL teams, past and present, on a Leaflet map. Select one of the layers to view data filtered by certain parameters.
@@ -128,7 +128,7 @@ View all of the NHL teams, past and present, on a Leaflet map. Select one of the
 ### NHL Draft Breakdown
 View the nationality breakdown from a given NHL Draft year.
 
-<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/aef62de0-eba9-4c83-826d-0f8d53728fe0" width="400" height="400">
+<img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/aef62de0-eba9-4c83-826d-0f8d53728fe0" width="600" height="400">
 
 ## Machine Learning
 ### KMeans Clustering
