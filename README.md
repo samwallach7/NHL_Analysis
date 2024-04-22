@@ -114,19 +114,19 @@ In the early years of the National Hockey League, the majority of the profession
 Our analysis was robust and multi-dimensional. Utilizing the Pandas library, we cleaned and transformed the team data to prepare it for in-depth examination. For visual exploration and to present our findings in an intuitive format, we incorporated Matplotlib. This combination not only facilitated a deeper understanding of the data but also enabled us to uncover patterns and trends that were not immediately apparent. Through this comprehensive analysis, we were able to draw meaningful conclusions about team performances and their correlations with player statistics.
 
 ### Player Selector Tool
-Select a player from the list and the most recent season's stats are returned
+We created a player selector tool to select a player from the list and the most recent season's stats are returned.
 
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/66b879f6-141d-4211-9023-1dbbd7c4c7c8" width="800" height="500">
 
 ### NHL Team Mapping
-View all of the NHL teams, past and present, on a Leaflet map. Select one of the layers to view data filtered by certain parameters.
+We created a Leaflet map to view all of the NHL teams, past and present. One of the layers can be selected to view data filtered by certain parameters.
 
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/41f27b3f-a38d-42fd-9bfb-247d33c2ad1b" width="600" height="500">
 
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/af3ac8b8-6e7f-4ba1-b885-f24c39b819eb" width="600" height="500">
 
 ### NHL Draft Breakdown
-View the nationality breakdown from a given NHL Draft year.
+We created a tool to select a year and view the nationality breakdown from the given year.
 
 <img src="https://github.com/samwallach7/NHL_Analysis/assets/148116220/aef62de0-eba9-4c83-826d-0f8d53728fe0" width="600" height="400">
 
